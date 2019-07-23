@@ -1,0 +1,15 @@
+<strong class="header">Near popular places:</strong>
+
+<virtual-scroller
+  #scroll
+  [items]="places"
+  enableUnequalChildrenSizes="true"
+  class="places-viewport"
+>
+  <div
+    *ngFor="let place of scroll.viewPortItems"
+    class="place-item">
+    <span class="location">{{place.location}}</span>
+    <span class="stores">{{place.numberOfStores}} available</span>
+  </div>
+</virtual-scroller>

@@ -1,0 +1,9 @@
+<div *ngIf="videosPresent(); else novideos" class="container" fxLayout="row" >
+      <div *ngFor="let videoURL of videos">
+          <div (click)="openVideo(videoURL)"><img [src]="getYouTubeThumbnailURL(videoURL,'small')" class="facility-img"/></div>
+      </div>
+</div>
+
+<ng-template #novideos>
+   <div>No videos are available</div>
+</ng-template>

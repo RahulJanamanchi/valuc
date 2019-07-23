@@ -1,0 +1,41 @@
+@import "variables";
+@import "utils";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+// @import '~css-star-rating/scss/star-rating';
+
+@include font-face($font-light, "./assets/fonts/AvenirLTStd-Light", 300);
+@include font-face($font-regular, "./assets/fonts/AvenirLTStd-Book", 400);
+@include font-face($font-bold, "./assets/fonts/AvenirLTStd-Roman", 600);
+
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$app-primary:  mat-palette($mat-green);
+$app-accent: mat-palette($mat-yellow);
+$app-warn:   mat-palette($mat-red);
+$app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
+@include angular-material-theme($app-theme);
+
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: $primary-color;
+  color: $contrast-color;
+}
+* {
+  font-family: $font-regular;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+}

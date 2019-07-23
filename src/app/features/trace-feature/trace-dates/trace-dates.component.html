@@ -1,0 +1,6 @@
+<app-icon src="calendar" class="calendar"></app-icon>
+
+<div class="badge" *ngFor="let date of getDates()">
+  <div class="month">{{date[1]}}</div>
+  <div class="day">{{date[0]}}</div>
+</div>

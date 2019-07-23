@@ -1,0 +1,31 @@
+@import "utils";
+@import "variables";
+
+:host {
+  @include flex-layout(row);
+  margin: 24px;
+}
+
+.chip {
+  border: 1px solid $contrast-color;
+  border-radius: 24px;
+  @include flex-layout(row);
+  padding-right: 24px;
+  margin-left: 16px;
+  &:first-child {
+    margin-left: 0;
+  }
+  & * + * {
+    margin-left: 4px;
+  }
+}
+
+.badge {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: $primary-color;
+  background: $green-color;
+  border-radius: 50%;
+}

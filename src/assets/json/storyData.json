@@ -1,0 +1,130 @@
+[
+        {
+            "title":"Craftmanship",
+            "logoUrl":"assets/icons/thread.svg",
+            "imageUrl":"assets/icons/craftmanship.jpg",
+            "description":"Hidesign believes in being artisanal: at our atelier, there is no mass production, no assembly line. Our products are all handcrafted using leathers that come from our own tanneries, brass buckles that are exclusively sand cast and polished painstakingly by hand at our own brass forge. Our craftsmen still knot every stitch ending by hand, and our cutters still cut leather with fine pointed knives, a skill that takes two years to master. With average work experience at Hidesign of over 17 years, we have one of the most skilled teams of craftsmen in the leather goods industry in the world.",
+            "story":[
+                    {   
+                        "title":"Leather process",
+                        "imageUrl": "assets/images/craftmanship1.jpg",
+                        "videoUrl":"assets/videos/craftsmanshop.mp4",
+                        "imageData":"The leather manufacturing process is divided into three sub-processes: preparatory stages, tanning and crusting. All true leathers will undergo these sub-processes. A further sub-process, surface coating may be added into the sequence.",
+                        "videoData":"Needles provide many benefits when working with leather and technical textiles. Different cutting and cloth points, special application needles tailored to need, and innovative manufacturing methods lead to high reliability and flawless sewing results"
+                    }
+                    
+                    
+                ]
+        },
+        {
+            "title":"Innovation",
+            "logoUrl":"assets/icons/clean.svg",
+            "imageUrl":"assets/icons/innovation.jpg",
+            "description":"",
+            "story":[
+                {   
+                    "title":"Vegetable Tanning",
+                    "imageUrl": "assets/images/Innovation-vegetable-tannery.jpg"
+                     ,
+                    "videoUrl":""
+                    ,
+                    "imageData":"On discovering that most tanneries had shifted to the faster and cheaper process of chemical tanning, Hidesign revived the almost forgotten technique of vegetable tanning. Learning from the centuries old skills, using natural seeds and barks native to South India, Hidesign has created fashionable leathers that age exceptionally well. Today it is a leader in the research and use of vegetable tanned leathers across the globe.",
+                    "videoData":""
+
+                },
+                {   
+                    "title":"Marca Punto",
+                    "imageUrl": "assets/images/Innovation-murco.jpg"
+                     ,
+                    "videoUrl":""
+                    ,
+                    "imageData":"The dying art of Marca Punto, where every stitch is embossed by a heated metal foot has been brought back by Hidesign. Known as a heritage craft exclusive to Florence, we studied it 30 years ago in Santa Croce, Italy. It has since been abandoned in Italy as ‘too time consuming’ but we believe that the greatest beauty is often slow, stitch by Marca Punto stitch.",
+                    "videoData":""
+
+                },
+                {   
+                    "title":"Hand-Painting",
+                    "imageUrl": "assets/images/Innovation-handpainting.jpg"
+                     ,
+                    "videoUrl":""
+                    ,
+                    "imageData":"Hidesign’s leathers are intrinsically beautiful; fortunately we don’t need to hide them under layers of paint. Our leathers are lightly coloured, often by hand, to ensure that the natural character of the leather is visible.",
+                    "videoData":""
+
+                }
+                ]
+        },
+        {
+            "title":"Sustainability",
+            "logoUrl":"assets/icons/ecology.svg",
+            "imageUrl":"assets/icons/sustainability1.jpg",
+            "description":"Leather will never be an animal-friendly product: It is made of dead animal skin. However, the skin used to make leather comes from animals raised for their meat. In that sense, it uses a byproduct from another industry, so it doesn’t actually need additional land and resources.",
+            "story":[
+                {   
+                    "title":"",
+                    "imageUrl": "assets/images/sustainability_img1.png"
+                     ,
+                    "videoUrl":"assets/videos/sustainable.mp4"
+                    ,
+                    "imageData":"There are not many options in the market yet, but they do exist. These include Ecolife™ by Green Hides, which creates eco-friendly, chrome-free leather in Italian tanneries that recycle and purify wastewater."
+                    ,
+                    "videoData":"The Leather Working Group is also promoting sustainable environmental practices within the leather industry. Conventional leather is heavily criticized for the environmental impact of the tanning process. But leather can also be eco-friendly."
+
+                    
+                }
+               
+                ]
+        },
+        {
+            "title":"Know Your Product",
+            "logoUrl":"assets/icons/path.svg",
+            "imageUrl":"assets/icons/homeImage4.jpg",
+            "description":"",
+              "story":[
+                    {   
+                        "title":"Deer",
+                        "imageUrl": "assets/images/know-product-deer.jpg"
+                         ,
+                        "videoUrl":"assets/videos/know-your-product.mp4"
+                        ,
+                        "imageData":"The sheer luxury of Deer leather is its incredible softness and silky feel. The farmed deer leather used has been sourced from New Zealand and is considered to be one of the finest leathers of the world. Well known for its luxurious touch, it is remarkably light; ensuring you have an elegant bag with structure and body but one that is also gentle on your shoulder. "
+                        ,
+                        "videoData":"Deer leather stored together for long time."
+
+                        
+                    }
+                    
+                ]
+        },
+        {
+            "title":"Product Care",
+            "logoUrl":"assets/icons/path.svg",
+            "imageUrl":"assets/icons/product-care.jpg",
+            "description":"",
+             "story":[
+                    {   
+                        "title":"Cleaning",
+                        "imageUrl": ""
+                         ,
+                        "videoUrl":"assets/videos/product-care1.mp4"
+                        ,
+                        "imageData":""
+                        ,
+                        "videoData":"Rub lightly with a soft damp cloth dipped in light shampoo solution. In case of light coloured leathers avoid dirt and oil. Leather’s worst enemies are oil/eggs/pen marks. They do not come out. Hidesign light coloured leathers such as white, nude and beak have a special finish from 3M technologies, that adds a protective layer, but this does not help against oil.  "
+
+                        
+                    },
+                    {   
+                        "title":"Storage",
+                        "imageUrl": "assets/images/product-care-storage.jpg"
+                         ,
+                        "videoUrl":""
+                        ,
+                        "imageData":"Leather products should be well aired out or stored in a cloth bag. Do not enclose leather products in plastic bags for a long period of time."
+                        ,
+                        "videoData":""
+                    }
+                    
+                ]
+        }
+]

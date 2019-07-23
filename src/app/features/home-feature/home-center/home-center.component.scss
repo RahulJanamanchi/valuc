@@ -1,0 +1,30 @@
+@import "variables";
+@import "utils";
+
+:host {
+  flex: 1 1 auto;
+  margin: auto 24px;
+  padding: 48px 0;
+  position: relative;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  opacity: 100%;
+  margin-top: -33px;
+  font-weight: 500;
+
+}
+.Slogan{
+  background: rgba(0,0,0, 0.4);
+  height: 10vh;
+  margin-top: 48vh;
+}
+
+.homecenterontainer{
+  height: 116;
+  width: 368 ;
+}

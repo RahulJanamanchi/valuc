@@ -1,0 +1,71 @@
+@import "variables";
+
+:host {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  position: relative;
+  // left: 0;
+  // right: 0;
+  top: 15px;
+  // padding: 24px;
+  // display: flex;
+  // flex-flow: row nowrap;
+  // align-items: center;
+  // justify-content: flex-end;
+}
+app-icon:first-child {
+  margin-right: auto;
+}
+app-icon + app-icon {
+  margin-left: 8px;
+}
+
+canvas, video {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+// video {
+//   object-fit: fill;
+// }
+
+strong {
+  color: $primary-color;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -160px;
+}
+
+
+.nvc-scan-qrcode-image {
+  display: none;
+}
+.nvc-scan-qrcode-image.nvc-active {
+  display: block;
+  right: 0;
+  bottom: 0;
+}
+
+.backbutton{
+  height: 70px;
+  width: 65%;
+
+}
+
+.flashbutton{
+  height: 70px;
+  width: 65px;
+}
+
+.cameraflip{
+  height: 70px;
+  width: 68px;
+}

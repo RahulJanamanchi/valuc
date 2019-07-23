@@ -1,0 +1,28 @@
+<div class="container" fxLayout="column">
+  <div *ngFor="let order of orders">
+    <div class="container" fxLayout="row">
+      <div class="container" fxFlex="30%">
+        <div fxFlex="25%" fxLayoutAlign="top top">
+            <button class="loadbutton" (click)="loadCorrespondingOrderDetails(order)">
+                Load
+            </button>
+        </div>
+        <div fxFlex="75%">
+            <div class="circle">
+                <img src="assets/icons/shipped.svg" class="shippedicon" />
+              </div>
+        </div>
+      </div>
+      <div class="container" fxFlex="70%" fxLayout="row">
+        <div fxFlex="20%">
+          <img class="itemimg" src="{{order.companyData.businessUnit.gallery.images[0].imageURL}}" height="auto"
+            width="auto" />
+        </div>
+        <div fxFlex="80%" class="info">
+          <p>{{ order.companyData.company.name }} transported</p>
+          <p>on {{ order.inventories[0].orderCreateDate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

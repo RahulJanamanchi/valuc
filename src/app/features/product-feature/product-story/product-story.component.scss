@@ -1,0 +1,134 @@
+@import "variables";
+@import "utils";
+
+
+p{
+    margin: 10px 20px 10px 20px;
+}
+
+.designerdetails{
+    height:30%;
+}
+.prod-properties{
+    padding: 2%;
+    box-align: center;
+    
+  }
+  .backtohome{
+    width: 23px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    left: 21px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px;
+  }
+.stories{
+    position: sticky;
+    bottom: 0%;
+    height: 8vh;
+    background: rgba(65, 62, 62, 0.8);
+}
+.icon {
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 9px;
+  padding-bottom: 7px;
+}
+.websiteimage{
+   max-width: 100%;
+   max-height: 100%;
+}
+.websitebutton{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 15.5vh;
+    top: 1.9vh;
+}
+
+.storyImage{
+    width: 100%;
+}
+.videoStory{
+    width: 100%;
+    height:100%;
+}
+.designerimage{
+    opacity: 0.8;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-color: #222627;
+}
+.designerabout{
+    background-color:#222627;
+    color: whitesmoke;
+}
+.designerphilosophy{
+    color: #9E9FA1;
+}
+
+.designerstory{
+    width: 100%;
+    height: 50%;
+}
+
+.productStory{
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+.page{
+    height:100%;
+    //position: relative;
+  }
+.tagLine{
+    font-size: 35px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom:-10%;
+    text-shadow: 1px 1px grey;
+}
+
+.designername{
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 0px;
+    height: 50%;
+}
+
+.itemdescription{
+    color: #9E9FA1;
+
+}
+.storyheading{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+
+
+.menu{
+    height:50%;
+    width:100%;
+    margin-top:5%;
+
+}
+.menu-toggle {
+  margin-top: 20px;
+}
+
+.cameraimg{
+    position: absolute;
+    top: 5px;
+    right:0%;
+    
+}

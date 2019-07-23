@@ -1,0 +1,87 @@
+@mixin full-page {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+@mixin full-background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@mixin flex-layout($direction) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: nowrap;
+  @if $direction == row {
+    align-items: center;
+  }
+}
+
+@mixin position-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin glossy-effect {
+  overflow: hidden;
+  background: inherit;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    width: calc(100% + 200px);
+    height: calc(100% + 200px);
+    background: rgba(255, 255, 255, 0.3);
+    filter: blur(50px);
+  }
+}
+
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff svg) {
+  $src: null;
+
+  $extmods: (
+    eot: "?",
+    svg: "#" + str-replace($name, " ", "_")
+  );
+
+  $formats: (
+    otf: "opentype",
+    ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}

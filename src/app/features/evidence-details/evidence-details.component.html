@@ -1,0 +1,127 @@
+<mat-card class="header" [class.mat-elevation-z4]="true">
+  <div class="header-content" fxLayout="row"  fxLayoutAlign="center center">
+      <a class="left-arrow">
+        <button mat-icon-button (click)="toProductPage()" >
+          <img class="arrow" src="assets/icons/left-arrow.svg" />
+        </button>
+      </a>
+      <h3 fxLayoutAlign="center center">
+          {{evidenceType}}
+          <div class="image-container">
+              <img class="header-icon" [class.mat-elevation-z8]="true"
+              src="assets/icons/ecology.svg"/>
+          </div>
+      </h3>
+  </div>
+</mat-card>
+
+<div class="maps">
+  <app-maps [data]="mockdata" (sendData)="getData($event)" [evidenceType]="evidenceType"></app-maps>
+</div>
+
+<mat-tab-group dynamicHeight="true" mat-stretch-tabs mat-align-tabs="center" style="width:100%;" [class.mat-elevation-z4]="true">
+  <mat-tab label="Node level">
+    <mat-card  *ngIf="dataIsSet">
+      <mat-card-header *ngIf="!nodeLevelFlag">
+      <img mat-card-avatar class="node-image" src="assets/icons/Jaggery.png">
+      <mat-card-title > {{businessUnit['unitName']}} </mat-card-title>
+      <mat-card-subtitle> {{businessUnit['unitCity']}} </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content *ngIf="nodeLevelFlag">
+        <p class="nodelevel" >
+                  There is no Node Level Evidences for this product
+        </p> 
+
+      </mat-card-content>
+      <mat-card-content *ngIf="!nodeLevelFlag">
+          <ng-container *ngFor="let evidencePill of nodeLevel">
+              <app-button-pill [evidence]="evidencePill" [pillType]="pilltype" ></app-button-pill>
+          </ng-container>
+
+          <ng-container *ngIf="nodeDataIsSet">
+              <mat-divider [inset]="true"></mat-divider>
+              <div>
+                <h3> Description </h3>
+                {{nodeEvidenceDetails['description']}}
+              </div>
+
+              <mat-divider [inset]="true"></mat-divider>
+
+              <div>
+                  <h4> Images
+                    <span>({{nodeEvidenceDetails['subType']}})</span>
+                  </h4>
+                  <div fxLayout="row" fxLayoutGap="5px">
+                    <div *ngFor="let image of nodeEvidenceDetails['images']" >
+                        <img [src]="image['imageURL']" alt="evidence" class="evidence-img">
+                    </div>
+                </div>
+              </div>
+
+
+                <mat-divider [inset]="true"></mat-divider>
+
+                <div>
+                  <h4> Documents
+                    <span>({{nodeEvidenceDetails['subType']}})</span>
+                  </h4>
+
+                  <div *ngFor="let document of nodeEvidenceDetails['documents']" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                        <img [src]="document['imageUrl']" alt="document" class="document-img">
+                        <div>
+                          <h4>{{document['name']}}</h4>
+                          <span class="issue-date">issued on: {{document['created']}}</span>
+                        </div>
+                    </div>
+                  </div>
+
+          </ng-container>
+          <ng-container *ngIf="!nodeDataIsSet">
+            <div>
+              <h4> Images
+                <span>(all)</span>
+              </h4>
+              <div fxLayout="row wrap" fxLayoutGap="5px">
+                <div *ngFor="let evidence of nodeLevel" fxLayout="row wrap" fxLayoutGap="5px">
+                  <div *ngFor="let image of evidence['images']">
+                    <img [src]="image['imageURL']" alt="evidence" class="evidence-img">
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div *ngFor="let keyValue of nodeData['keyValues']" >
+                <div *ngIf="keyValue['name']==evidenceType" fxLayout="row wrap" fxLayoutGap="5px">
+                    <div *ngFor="let evidence of keyValue['evidences']['evidenceList']" fxLayout="row wrap" fxLayoutGap="5px">
+                      <div *ngFor="let image of evidence['images']">
+                          <img [src]="image" alt="evidence" class="evidence-img">
+                      </div>
+                    </div>
+                </div>
+              </div> -->
+            </div>
+            <mat-divider [inset]="true"></mat-divider>
+            <div>
+              <h4> Documents
+                <span>(all)</span>
+              </h4>
+              <div *ngFor="let evidence of nodeLevel">
+                <div *ngFor="let document of evidence['documents']" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                  <img [src]="document['imageUrl']" alt="document" class="document-img">
+                  <div>
+                    <h4>{{document['name']}}</h4>
+                    <span class="issue-date">issued on: {{document['created']}}</span>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </ng-container>
+      </mat-card-content>
+    </mat-card>
+
+
+  </mat-tab>
+  <mat-tab label="Product level">
+        <app-products [evidenceType]="evidenceType"></app-products>
+  </mat-tab >
+</mat-tab-group>
+

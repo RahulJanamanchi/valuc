@@ -1,0 +1,18 @@
+<strong class="header">Near available places:</strong>
+
+<virtual-scroller
+  #scroll
+  [items]="stores"
+  enableUnequalChildrenSizes="true"
+  class="stores-viewport"
+>
+  <div
+    *ngFor="let store of scroll.viewPortItems"
+    class="store-item-wrapper">
+    <div class="store-item">
+      <strong>{{store.name}}</strong>
+      <article class="location">{{store.location}}</article>
+      <div class="right-icon"><app-icon src="pin"></app-icon></div>
+    </div>
+  </div>
+</virtual-scroller>

@@ -1,0 +1,16 @@
+<div *ngIf="isCertificatePresent(); else nocertificates">
+  <div *ngFor="let certificate of certificates" class="container" fxLayout="row">
+    <div fxFlex="30%">
+      <img src="../../../../assets/icons/doc_large.svg.svg" class="document-img" alt="document" />
+    </div>
+    <div fxFlex="70%" class="container" fxLayout="column">
+      <div>{{certificate.name}}</div>
+      <div>Issued on:{{certificate.validity.startDate}} </div>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #nocertificates>
+  <div> There are not certificates available.</div>
+</ng-template>

@@ -1,0 +1,13 @@
+<div class="container" fxLayout="column" fxLayoutAlign="center center">
+  <h3>Configure your application settings here:</h3>
+  <div class="url-settings">
+    <mat-form-field [formGroup]="environmentSettingsForm" novalidate>
+      <mat-select placeholder="Environment Mode" (ngModelChange)="onChange($event)" name="item" formControlName="apiEndPoint" >
+        <mat-option *ngFor="let item of environment.environments" [value]="item">
+          {{item}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <a (click)="goBack()">Save</a>
+</div>

@@ -1,0 +1,66 @@
+.reviewimage{
+    opacity: 0.8;
+    background-size: cover;
+    background-color: #222627;
+}
+.header{
+    height:30%;
+}
+.menu{
+    height:50%;
+    width:100%;
+    margin-top:5%;
+
+}
+.backtoscan{
+    position: absolute;
+    top: 5px;
+    left:0%;
+  }
+.cameraimg{
+    position: absolute;
+    top: 5px;
+    right:0%;
+    
+}
+.tagLine{
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-bottom:20%;
+}
+.storyImage{
+    width: 100%;
+}
+.designerstory{
+    width: 100%;
+    height: 50%;
+}
+.productStory{
+    width: 102%;
+    overflow-y: scroll;
+    
+}
+.storyheading{
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding: 7px;
+    margin-top: 0%;
+}
+.itemdescription{
+    color: #9E9FA1;
+    padding: 12px;
+    margin-top: 0%;
+
+}
+.backtohome{
+    width: 23px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    left: 21px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px;
+  }

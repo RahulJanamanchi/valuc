@@ -1,0 +1,147 @@
+[
+    {
+        "type": "Environmental Impacts" ,
+        "color": "#23CE08",
+        "imageUrl": "assets/icons/ecology.svg" ,
+        "location":[
+            {
+                "address":"Indore, India",
+                "numberEvidences":2,
+                "nodeLevel":{
+                    "businessUnit":{
+                        "unitName": "Arla Productions",
+                        "unitImage": "",
+                        "unitCity":"Indore"
+                    },
+                    "nodeEvidences":[
+                        {
+                            "subType":"Plastic Free",
+                            "description":"It is a Plastic free",
+                            "images":[ "assets/icons/node_details_2.png", "assets/icons/node_details_3.png"],
+                            "videos":[],
+                            "documents":[
+                                {
+                                    "name":"Plastic Free Certification",
+                                    "certificateDocument":"assets/icons/certificate_icon.svg",
+                                    "validity":{
+                                      "startDate":"23-01-12",
+                                      "endDate":"23-01-23"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "subType":"Carbon Free",
+                            "description":"It is carbon free",
+                            "images":["assets/icons/node_details.png", "assets/icons/node_details_2.png", "assets/icons/node_details_3.png"],
+                            "videos":[],
+                            "documents":[ {
+                                "name":"Eco friendly Carbon Free Certification",
+                                "certificateDocument":"assets/icons/nvc-certified.svg",
+                                "validity":{
+                                  "startDate":"30-12-15",
+                                  "endDate":"19-03-23"
+                                }
+                              }]
+                        }
+                    ]
+                },
+                "productLevel":[
+                    {
+                        "product": "Cheese",
+                        "brandName": "Arla",
+                        "productImage": "",
+                        "productEvidences": [
+                            {
+                                "subType": "TemperatureControl",
+                                "description":"Temperature is being controlled",
+                                "images": [],
+                                "videos": [],
+                                "documents": [],
+                                "graphs": [
+                                    {
+                                      "title": "Temperature",
+                                      "labels": ["0","1","2","3","4","5","6","7","8","9","10"],
+                                      "data": [34,37,32,30,25,19,10,17,23,30,31]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "product": "Lactose",
+                        "brandName": "Lact",
+                        "productImage": "",
+                        "productEvidences": [
+                            {
+                                "subType": "TemperatureControl",
+                                "description":"Temperature is being controlled",
+                                "images": [],
+                                "videos": [],
+                                "documents": [],
+                                "graphs": [
+                                    {
+                                      "title": "Temperature",
+                                      "labels": ["0","1","2","3","4","5","6","7","8","9","10"],
+                                      "data": [34,37,32,30,25,19,10,17,23,30,31]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+
+            },
+            {
+                "address":"Kolkata, India",
+                "numberEvidences":2,
+                "nodeLevel":{
+                    "businessUnit":{
+                        "unitName": "XYZ",
+                        "unitImage": "",
+                        "unitCity": "Kolkata"
+                    },
+                    "nodeEvidences":[
+                        {
+                            "subType":"Carbon Free",
+                            "description":"It is carbon free",
+                            "images":["assets/icons/node_details.png", "assets/icons/node_details_2.png", "assets/icons/node_details_3.png"],
+                            "videos":[],
+                            "documents":[ {
+                                "name":"Eco friendly Carbon Free Certification",
+                                "certificateDocument":"assets/icons/nvc-certified.svg",
+                                "validity":{
+                                  "startDate":"30-12-15",
+                                  "endDate":"19-03-23"
+                                }
+                              }]
+                        }
+                    ]
+                },
+                "productLevel":[
+                    {
+                        "product": "Lactose",
+                        "brandName": "Lact",
+                        "productImage": "",
+                        "productEvidences": [
+                            {
+                                "subType": "HumidityControl",
+                                "description":"This product is under humidity control",
+                                "images": [],
+                                "videos": [],
+                                "documents": [],
+                                "graphs": [
+                                    {
+                                      "title": "Humidity",
+                                      "labels": ["0","1","2","3","4","5","6","7","8","9","10"],
+                                      "data": [22,25,55,30,25,19,10,33,55,30,31]
+                                    }]
+                            }
+                        ]
+                    }
+                ]
+
+            }
+        ]
+    }
+]

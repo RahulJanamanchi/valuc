@@ -1,0 +1,10 @@
+<div *ngIf="productQuality.length<=0">Quality data is not present for this product</div>
+
+<div *ngIf="productQuality.length>0">
+    <div class="div-table" *ngFor="let quality of productQuality">
+      <div class="div-table-row">
+        <div class="div-table-col1">{{ quality.attributeKey }} : </div>
+        <div class="div-table-col2">{{ quality.attributeValue }}</div>
+      </div>
+    </div>
+</div>

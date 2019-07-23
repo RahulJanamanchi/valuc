@@ -1,0 +1,17 @@
+.div-table {
+    display: table;         
+  }
+  .div-table-row {
+    display: table-row;
+  }
+  .div-table-col1 {
+    float: left;
+    display: table-column;    
+    width: auto;
+    font-weight: bold; 
+  }
+  .div-table-col2 {
+    float: left;
+    display: table-column;   
+    width: auto;      
+  }

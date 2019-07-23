@@ -1,0 +1,32 @@
+<!-- <mat-card [ngClass]="{'display':isSelected}" [ngClass]="{'notDisplay'}"> -->
+    <mat-card *ngIf="visible">
+        <mat-card-header style="position: relative;">
+            <img mat-card-avatar class="node-image" src="assets/icons/Jaggery.png">
+            <mat-card-title > {{title}} </mat-card-title>
+            <mat-card-subtitle> {{brand}} </mat-card-subtitle>
+            <div *ngIf="!isZero">
+                <div  class="view" (click)="toggleExpanded()" [ngClass]="{'productview':flag}" > {{buttonText}} </div>
+        
+            </div>
+            </mat-card-header>
+        <mat-card-content *ngIf="!productLevelFlag">
+              <p class="productlevel" >
+                    There is no Node Level Evidences for this product
+              </p> 
+        </mat-card-content>
+        <mat-card-content *ngIf="flag && productLevelFlag">
+            <ng-container *ngFor="let evidencePill of product">
+                <app-button-pill [evidence]="evidencePill" [pillType]="pilltype"></app-button-pill>
+            </ng-container>
+            
+            <div *ngIf="productEvidenceDetails['description']">
+                    <h3>  Description  </h3>
+                    {{productEvidenceDetails['description']}}        
+            </div>
+            
+            <br>
+            <div class="graph">
+                <canvas id="myChart" ></canvas>
+            </div>
+        </mat-card-content>
+</mat-card>

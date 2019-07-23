@@ -1,0 +1,54 @@
+@import "utils";
+@import "variables";
+
+:host {
+  flex: 1 0 310px;
+  @include flex-layout(column);
+  padding: 16px 0;
+  border: 1px solid $grey-color;
+  border-left: 0;
+  border-right: 0;
+}
+.header {
+  flex: none;
+  padding: 0 24px 16px;
+}
+.stores-viewport {
+  flex: 1 1 0;
+}
+
+.store-item-wrapper {
+  padding: 0 24px 24px;
+  &:first-of-type {
+    padding-top: 2px;
+  }
+  &:last-of-type {
+    padding-bottom: 2px;
+  }
+}
+.store-item {
+  position: relative;
+  padding: 16px 72px 16px 16px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+
+strong {
+  display: block;
+  font-size: 18px;
+  font-family: $font-bold;
+}
+.right-icon {
+  position: absolute;
+  width: 56px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background-color: $grey-color;
+  color: $green-color;
+}
+app-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

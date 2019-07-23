@@ -1,0 +1,938 @@
+{
+  "children": [
+    {
+      "inventories": [
+        {
+          "conversions": [
+
+          ],
+          "inventory": {
+            "price": {
+              "MRP": {
+                "value": 300
+              }
+            },
+            "unitMeasure": "Box",
+            "productSubCategoryName": "",
+            "productMainCategoryName": "",
+            "productName": "Sandal",
+            "productType": "Premium",
+            "productCode": "",
+            "productDescription": "",
+            "brandName": "Clog",
+            "brandVariety": "",
+            "brandVarietyName": "Premium",
+            "brandVarietyDescription": "",
+            "unitOfMeasureName": "Box (10 Kgs)",
+            "numberOfUnits": 299,
+            "deleted": false,
+            "inventoryImages": [
+              {
+                "imageURL": "https://i.pinimg.com/originals/0d/f9/d2/0df9d2839d71ac0a65805112c6e35bfc.jpg",
+                "croppedImageURL": "https://i.pinimg.com/originals/0d/f9/d2/0df9d2839d71ac0a65805112c6e35bfc.jpg",
+                "_id": "5cde3eac59c0464c8acfa855"
+              }
+            ]
+          },
+          "stockMasters": [
+            {
+              "count": 1,
+              "conversions": [
+                {
+                  "inventories": [{
+                    "conversions": {
+
+                    },
+                    "inventory": {
+                      "price": {
+                        "MRP": {
+                          "value": 30
+                        }
+                      },
+                      "unitMeasure": "Kg",
+                      "productMainCategoryName": "Soles",
+                      "productName": "Wooden Sole",
+                      "productCode": "WSOLE",
+                      "productDescription": "",
+                      "brandName": "CLOG",
+                      "brandVariety": "",
+                      "brandVarietyName": "Premium",
+                      "inventoryImages": [
+                        {
+                          "imageURL": "https://i.ibb.co/CK89W0c/woodensole.jpg",
+                          "croppedImageURL": "https://i.ibb.co/CK89W0c/woodensole.jpg",
+                          "_id": "5cde3eac59c0464c8acfa855"
+                        }
+                      ]
+                    },
+                    "stockMasters": [
+                      {
+                        "count": 1,
+                        "conversions": [
+                          {
+                            "inventories": [
+                              {
+                                "conversions": [
+
+                                ],
+                                "inventory": {
+                                  "price": {
+                                    "MRP": {
+                                      "value": 100
+                                    }
+                                  },
+                                  "unitMeasure": "Kgs",
+                                  "productMainCategoryName": "",
+                                  "productName": "Wood",
+                                  "productCode": "",
+                                  "productDescription": "Wood",
+                                  "brandName": "Farmer",
+                                  "brandVariety": "",
+                                  "brandVarietyName": "Raw",
+                                  "inventoryImages": [
+                                    {
+                                      "imageURL": "https://i.ibb.co/TtTpHwH/wood.jpg",
+                                      "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                                      "_id": "5cde3eac59c0464c8acfa855"
+                                    }
+                                  ]
+                                },
+                                "stockMasters": [
+                                  {
+                                    "count": 1,
+                                    "conversions": [
+
+                                    ],
+                                    "orders": [
+
+                                    ],
+                                    "stockData": {
+                                      "count": 1,
+                                      "stockMaster": {
+                                        "code": "00728-00001-17052019-00001",
+                                        "batchNumber": "00728-00001-17052019-00001"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "orders": [],
+                            "companyData": {
+                              "company": {
+                                "name": "Mr. Prakash Badal",
+                                "profileImageURL": "https://i.ibb.co/Qvyvkwd/woodfarm.jpg",
+                                "addresses": [
+                                  {
+                                    "addressLine": "Bhatinda",
+                                    "city": "Bhatinda",
+                                    "state": "Punjab",
+                                    "country": "India"
+                                  }
+                                ],
+                                "registrationCategory": {
+                                  "name": "Manufacturer"
+                                }
+                              },
+                              "businessUnit": {
+                                "name": "Farmer",
+                                "type": "RegisteredOffice"
+                              }
+                            },
+                            "children": [
+                              {
+                                  "inventories":[{
+                                    "orderCreatedDate":"2019-05-22T14:20:38.098Z",
+                                    "orderNumber":"00006-00001-22052019-00001",
+                                    "conversions":[],
+                                    "inventory":{},
+                                    "stockMasters":[{
+                                      "stockMaster":{
+                                        "count":25,
+                                        "batchNumber":"00008-00001-22052019-00001"
+                                      }
+                                    }]
+                                  }],
+                                  "companyData":{
+
+                                    "company": {
+                                      "name": "Mr. Prakash Badal",
+                                      "profileImageURL": "https://i.ibb.co/Qvyvkwd/woodfarm.jpg",
+                                      "addresses": [
+                                        {
+                                          "addressLine": "Bhatinda",
+                                          "city": "Bhatinda",
+                                          "state": "Punjab",
+                                          "country": "India"
+                                        }
+                                      ],
+                                      "registrationCategory": {
+                                        "name": "Manufacturer"
+                                      }
+                                    },
+                                    "businessUnit": {
+                                      "name": "Farmer",
+                                      "type": "RegisteredOffice"
+                                    }
+                                  },
+                                  "orders":[{
+                                    "inventories":[{
+                                      "orderCreatedDate":"2019-05-22T14:20:38.098Z",
+                                      "orderNumber":"00006-00001-22052019-00001",
+                                      "conversions":[],
+                                      "inventory":{},
+                                      "stockMasters":[{
+                                        "stockMaster":{
+                                          "count":25,
+                                          "batchNumber":"00008-00001-22052019-00001"
+                                        }
+                                      }]
+                                    }],
+                                    "companyData":{
+                                      "company": {
+                                        "name": "Mr. Prakash Badal",
+                                        "profileImageURL": "https://i.ibb.co/Qvyvkwd/woodfarm.jpg",
+                                        "addresses": [
+                                          {
+                                            "addressLine": "Bhatinda",
+                                            "city": "Bhatinda",
+                                            "state": "Punjab",
+                                            "country": "India"
+                                          }
+                                        ],
+                                        "registrationCategory": {
+                                          "name": "Manufacturer"
+                                        }
+                                      },
+                                      "businessUnit": {
+                                        "name": "Farmer",
+                                        "type": "RegisteredOffice"
+                                      }
+                                    },
+                                    "children":[]
+
+                                  }],
+                                  "children":[]
+
+                                }
+                            ]
+                          },
+                          {
+                            "inventories": [
+                              {
+                                "conversions": [
+
+                                ],
+                                "inventory": {
+                                  "price": {
+                                    "MRP": {
+                                      "value": 100
+                                    }
+                                  },
+                                  "unitMeasure": "Kgs",
+                                  "productMainCategoryName": "",
+                                  "productName": "Feviquick",
+                                  "productCode": "",
+                                  "productDescription": "Adhesive",
+                                  "brandName": "Feviquick",
+                                  "brandVariety": "",
+                                  "brandVarietyName": "Premium",
+                                  "inventoryImages": [
+                                    {
+                                      "imageURL": "https://5.imimg.com/data5/YJ/RP/MY-56661518/fevicol-adhesive-500x500.jpg",
+                                      "croppedImageURL": "https://5.imimg.com/data5/YJ/RP/MY-56661518/fevicol-adhesive-500x500.jpg",
+                                      "_id": "5cde3eac59c0464c8acfa855"
+                                    }
+                                  ]
+                                },
+                                "stockMasters": [
+                                  {
+                                    "count": 1,
+                                    "conversions": [
+
+                                    ],
+                                    "orders": [
+
+                                    ],
+                                    "stockData": {
+                                      "count": 1,
+                                      "stockMaster": {
+                                        "code": "00728-00001-17052019-00001",
+                                        "batchNumber": "00728-00001-17052019-00001"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "orders": [],
+                            "companyData": {
+                              "company": {
+                                "name": "",
+                                "profileImageURL": "https://i.ibb.co/02XJCD4/pidilite.png",
+                                "addresses": [
+                                  {
+                                    "addressLine": "Shukla Ganj",
+                                    "city": "Kanpur",
+                                    "state": "UP",
+                                    "country": "India"
+                                  }
+                                ],
+                                "registrationCategory": {
+                                  "name": "Manufacturer"
+                                }
+                              },
+                              "businessUnit": {
+                                "name": "Faviquick",
+                                "type": "RegisteredOffice"
+                              }
+                            },
+                            "children": [
+                              {
+                                "inventories": [
+                                  {
+                                    "conversions": [
+
+                                    ],
+                                    "inventory": {
+                                      "price": {
+                                        "MRP": {
+                                          "value": 100
+                                        }
+                                      },
+                                      "unitMeasure": "Kgs",
+                                      "productMainCategoryName": "",
+                                      "productName": "Feviquick",
+                                      "productCode": "",
+                                      "productDescription": "Adhesive",
+                                      "brandName": "Feviquick",
+                                      "brandVariety": "",
+                                      "brandVarietyName": "Premium",
+                                      "inventoryImages": [
+                                        {
+                                          "imageURL": "https://i.ibb.co/n75RxSN/adhesive.jpg",
+                                          "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                                          "_id": "5cde3eac59c0464c8acfa855"
+                                        }
+                                      ]
+                                    },
+                                    "stockMasters": [
+                                      {
+                                        "count": 1,
+                                        "conversions": [
+
+                                        ],
+                                        "orders": [
+
+                                        ],
+                                        "stockData": {
+                                          "count": 1,
+                                          "stockMaster": {
+                                            "code": "00728-00001-17052019-00001",
+                                            "batchNumber": "00728-00001-17052019-00001"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "orderCreatedDate":"2019-05-22T14:20:38.098Z",
+                                    "orderNumber":"00006-00001-22052019-00001"
+                                  }
+                                ],
+                                "orders": [{
+                                  "inventories":[{
+                                    "orderCreatedDate":"2019-05-22T14:20:38.098Z",
+                                    "orderNumber":"00006-00001-22052019-00001",
+                                    "conversions":[],
+                                    "inventory":{},
+                                    "stockMasters":[{
+                                      "stockMaster":{
+                                        "count":25,
+                                        "batchNumber":"00008-00001-22052019-00001"
+                                      }
+                                    }]
+                                  }],
+                                  "companyData":{
+                                    "company": {
+                                      "name": "",
+                                      "profileImageURL": "https://i.ibb.co/02XJCD4/pidilite.png",
+                                      "addresses": [
+                                        {
+                                          "addressLine": "Shukla Ganj",
+                                          "city": "Kanpur",
+                                          "state": "UP",
+                                          "country": "India"
+                                        }
+                                      ],
+                                      "registrationCategory": {
+                                        "name": "Manufacturer"
+                                      }
+                                    },
+                                    "businessUnit": {
+                                      "name": "Faviquick",
+                                      "type": "RegisteredOffice"
+                                    }
+                                  },
+                                  "children":[]
+
+                                }],
+                                "companyData": {
+                                  "company": {
+                                    "name": "",
+                                    "profileImageURL": "https://i.ibb.co/02XJCD4/pidilite.png",
+                                    "addresses": [
+                                      {
+                                        "addressLine": "Shukla Ganj",
+                                        "city": "Kanpur",
+                                        "state": "UP",
+                                        "country": "India"
+                                      }
+                                    ],
+                                    "registrationCategory": {
+                                      "name": "Manufacturer"
+                                    }
+                                  },
+                                  "businessUnit": {
+                                    "name": "Faviquick",
+                                    "type": "RegisteredOffice"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+
+                        ],
+                        "orders": [
+
+                        ],
+                        "stockData": {
+                          "count": 1,
+                          "stockMaster": {
+                            "code": "00728-00001-17052019-00001",
+                            "batchNumber": "00728-00001-17052019-00001"
+                          }
+                        }
+                      }
+                    ]
+                  }],
+                  "orders": [],
+                  "companyData": {
+                    "company": {
+                      "name": "Sales inventory@clog.com",
+                      "profileImageURL": "https://i.ibb.co/n1qfqdJ/clog-man.jpg",
+                      "addresses": [
+                        {
+                          "addressLine": "GAUTAM BUDDHA NAGAR",
+                          "city": "Noida",
+                          "country": "India"
+                        }
+                      ],
+                      "registrationCategory": {
+                        "name": "Manufacturer"
+                      }
+                    },
+                    "businessUnit": {
+                      "name": "CLOG",
+                      "type": "RegisteredOffice"
+                    }
+                  },
+                  "children": [
+
+                    ]
+                },
+                {
+                  "inventories": [
+                    {
+                      "conversions": [],
+                      "inventory": {
+                        "price": {
+                          "MRP": {
+                            "value": 5000
+                          }
+                        },
+                        "unitMeasure": "Metres",
+                        "productMainCategoryName": "",
+                        "productName": "Wool Heal Pad",
+                        "productCode": "",
+                        "productDescription": "Wool heal pad for sandals",
+                        "brandName": "WoolMan",
+                        "brandVariety": "",
+                        "brandVarietyName": "Premium",
+                        "inventoryImages": [
+                          {
+                            "imageURL": "https://i.ibb.co/vmXZnKX/woolpad.jpg",
+                            "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                            "_id": "5cde3eac59c0464c8acfa855"
+                          }
+                        ]
+                      },
+                      "stockMasters": [
+                        {
+                          "count": 1,
+                          "conversions": [
+
+                          ],
+                          "orders": [
+
+                          ],
+                          "stockData": {
+                            "count": 1,
+                            "stockMaster": {
+                              "code": "00728-00001-17052019-00001",
+                              "batchNumber": "00728-00001-17052019-00001"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "orders": [],
+                  "companyData": {
+                    "company": {
+                      "name": "sales@clog.com",
+                      "profileImageURL": "https://i.ibb.co/n1qfqdJ/clog-man.jpg",
+                      "addresses": [
+                      ],
+                      "registrationCategory": {
+                        "name": "Manufacturer"
+                      }
+                    },
+                    "businessUnit": {
+                      "name": "CLOG",
+                      "type": "RegisteredOffice"
+                    }
+                  },
+                  "children": [
+                    {
+                        "inventories":[{
+                          "orderCreatedDate":"2019-05-22T14:20:38.098Z",
+                          "orderNumber":"00006-00001-22052019-00001",
+                          "conversions":[],
+                          "inventory":{
+
+                              "price": {
+                              "MRP": {
+                                "value": 5000
+                                }
+                                },
+                              "unitMeasure": "Metres",
+                              "productMainCategoryName": "",
+                              "productName": "Wool Heal Pad",
+                              "productCode": "",
+                              "productDescription": "Wool heal pad for sandals",
+                              "brandName": "WoolMan",
+                              "brandVariety": "",
+                              "brandVarietyName": "Premium",
+                              "inventoryImages": [
+                              {
+                                "imageURL": "https://i.ibb.co/vmXZnKX/woolpad.jpg",
+                                "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                                "_id": "5cde3eac59c0464c8acfa855"
+                              }
+                              ]
+                          },
+                          "stockMasters":[{
+                            "stockMaster":{
+                              "count":25,
+                              "batchNumber":"00008-00001-22052019-00001"
+                            }
+                          }]
+                        }],
+                        "companyData":{
+
+                          "company": {
+                            "name": "Woolman",
+                            "profileImageURL": "https://i.ibb.co/Qvyvkwd/woodfarm.jpg",
+                            "addresses": [
+                              {
+                                "addressLine": "MG Road",
+                                "city": "Kolkata",
+                                "state": "West Bengal",
+                                "country": "India"
+                              }
+                            ],
+                            "registrationCategory": {
+                              "name": "Manufacturer"
+                            }
+                          },
+                          "businessUnit": {
+                            "name": "Woolman INC",
+                            "type": "RegisteredOffice"
+                          }
+                        },
+                        "orders":[{
+                          "inventories":[{
+                            "orderCreatedDate":"2019-05-22T14:20:38.098Z",
+                            "orderNumber":"00006-00001-22052019-00001",
+                            "conversions":[],
+                            "inventory":{},
+                            "stockMasters":[{
+                              "stockMaster":{
+                                "count":25,
+                                "batchNumber":"00008-00001-22052019-00001"
+                              }
+                            }]
+                          }],
+                          "companyData":{
+                            "company": {
+                              "name": "Woolman",
+                              "profileImageURL": "https://i.ibb.co/Qvyvkwd/woodfarm.jpg",
+                              "addresses": [
+                                {
+                                  "addressLine": "MG Road",
+                                  "city": "Kolkata",
+                                  "state": "West Bengal",
+                                  "country": "India"
+                                }
+                              ],
+                              "registrationCategory": {
+                                "name": "Manufacturer"
+                              }
+                            },
+                            "businessUnit": {
+                              "name": "Woolman INC",
+                              "type": "RegisteredOffice"
+                            }
+                          },
+                          "children":[]
+
+                        }],
+                        "children":[]
+
+                      },
+                      {
+                        "inventories":[{
+                          "orderCreatedDate":"2019-05-22T14:20:38.098Z",
+                          "orderNumber":"00006-00001-22052019-00001",
+                          "conversions":[],
+                          "inventory":{
+
+                              "price": {
+                              "MRP": {
+                                "value": 5000
+                                }
+                                },
+                              "unitMeasure": "Metres",
+                              "productMainCategoryName": "",
+                              "productName": "Wool Heal Pad",
+                              "productCode": "",
+                              "productDescription": "Wool heal pad for sandals",
+                              "brandName": "WoolMan",
+                              "brandVariety": "",
+                              "brandVarietyName": "Premium",
+                              "inventoryImages": [
+                              {
+                                "imageURL": "https://i.ibb.co/vmXZnKX/woolpad.jpg",
+                                "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                                "_id": "5cde3eac59c0464c8acfa855"
+                              }
+                              ]
+                          },
+                          "stockMasters":[{
+                            "stockMaster":{
+                              "count":25,
+                              "batchNumber":"00008-00001-22052019-00001"
+                            }
+                          }]
+                        }],
+                        "companyData":{
+
+                          "company": {
+                            "name": "WoolComfort",
+                            "profileImageURL": "https://i.ibb.co/Qvyvkwd/woodfarm.jpg",
+                            "addresses": [
+                              {
+                                "addressLine": "ABC Colony",
+                                "city": "Indore",
+                                "state": "MP",
+                                "country": "India"
+                              }
+                            ],
+                            "registrationCategory": {
+                              "name": "Manufacturer"
+                            }
+                          },
+                          "businessUnit": {
+                            "name": "Woolcomfort ltd",
+                            "type": "RegisteredOffice"
+                          }
+                        },
+                        "orders":[{
+                          "inventories":[{
+                            "orderCreatedDate":"2019-05-10T14:20:38.098Z",
+                            "orderNumber":"00006-00001-22052019-00001",
+                            "conversions":[],
+                            "inventory":{},
+                            "stockMasters":[{
+                              "stockMaster":{
+                                "count":20,
+                                "batchNumber":"00008-00001-22052019-00001"
+                              }
+                            }]
+                          }],
+                          "companyData":{
+
+                            "company": {
+                              "name": "WoolComfort",
+                              "profileImageURL": "https://i.ibb.co/Qvyvkwd/woodfarm.jpg",
+                              "addresses": [
+                                {
+                                  "addressLine": "ABC Colony",
+                                  "city": "Indore",
+                                  "state": "MP",
+                                  "country": "India"
+                                }
+                              ],
+                              "registrationCategory": {
+                                "name": "Manufacturer"
+                              }
+                            },
+                            "businessUnit": {
+                              "name": "Woolcomfort ltd",
+                              "type": "RegisteredOffice"
+                            }
+                          },
+                          "children":[]
+
+                        }],
+                        "children":[]
+
+                      }
+                  ]
+                }
+              ],
+              "orders": [
+
+              ],
+              "stockItems": [
+
+              ],
+              "stockMaster": "5cde3ead59c0464c8acfa85c",
+              "stockData": {
+                "count": 1,
+                "stockMaster": {
+                  "currentOwner": {
+                    "businessUnitNumber": "",
+                    "businessUnitName": "RegisteredOffice - default",
+                    "companyName": "nVipani",
+                    "company": "5cde3ea859c0464c8acfa55a",
+                    "businessUnit": {
+
+                    }
+                  },
+                  "weightLoss": {
+                    "percentage": 0,
+                    "duration": 0
+                  },
+                  "price": {
+                    "MRP": {
+                      "value": 30,
+                      "from": 30,
+                      "to": 30,
+                      "multiplier": 0,
+                      "sourcePrice": "None"
+                    }
+                  },
+                  "stockOut": {
+
+                  },
+                  "stockIn": {
+
+                  },
+                  "stockOwner": {
+
+                  },
+                  "code": "00728-00001-17052019-00001",
+                  "batchNumber": "00728-00001-17052019-00001",
+                  "resources": [
+
+                  ],
+                  "conversion": [
+
+                  ],
+                  "items": [
+
+                  ],
+                  "manufacturingDate": "2019-05-17T04:55:09.324Z",
+                  "expiryDate": "2019-05-17T04:55:09.324Z",
+                  "images": [
+
+                  ],
+                  "videos": [
+
+                  ],
+                  "certificates": [
+
+                  ],
+                  "created": "2019-05-17T04:55:09.535Z",
+                  "lastUpdated": "2019-05-17T04:55:09.324Z",
+                  "inventory": {
+
+                  },
+                  "user": {
+
+                  },
+                  "stockMasterVersionKey": 0
+                }
+              }
+            }
+          ],
+          "orderNumber": "00728-00001-17052019-00001",
+          "orderCreatedDate": "2019-05-17T04:55:15.141Z"
+        }
+      ],
+      "orders": [{
+        "inventories":[{
+            "orderCreatedDate":"2019-05-17T04:55:15.141Z",
+            "inventory":{
+
+            },
+            "stockMasters":[{
+              "conversions":[],
+              "orders":[],
+              "stockMaster":{
+                "_id":"5ce559d9b0b68f11e25ee25a",
+                "batchNumber":"00008-00001-22052019-00001",
+                "count":"50"
+              }
+            }],
+            "conversions":[]
+          }],
+        "children":[{}],
+        "companyData":{
+
+        "company": {
+          "name": "CLOG",
+          "code": "00728",
+          "profileImageURL": "https://i.ibb.co/n1qfqdJ/clog-man.jpg",
+          "croppedProfileImageURL": "https://i.ibb.co/n1qfqdJ/clog-man.jpg",
+          "_id": "5cde3ea859c0464c8acfa55a",
+          "addresses": [
+
+          ],
+          "registrationCategory": {
+            "name": "Manufacturer",
+            "description": "Poineer in manufacturing comfortable footwear",
+            "_id": "5cd4720b38122d571ed295e9"
+          }
+        },
+        "businessUnit": {
+          "name": "Clog Manufacturing",
+          "code": "00001",
+          "type": "RegisteredOffice",
+          "_id": "5cde3ea859c0464c8acfa562"
+        }
+        }
+      }],
+      "children": [
+
+      ],
+      "companyData": {
+        "company": {
+          "name": "CLOG",
+          "code": "00728",
+          "profileImageURL": "https://i.ibb.co/n1qfqdJ/clog-man.jpg",
+          "croppedProfileImageURL": "modules/companies/img/company/nvc-company-resize-240-240.png",
+          "_id": "5cde3ea859c0464c8acfa55a",
+          "addresses": [
+
+          ],
+          "registrationCategory": {
+            "name": "Manufacturer",
+            "description": "Poineer in manufacturing comfortable footwear",
+            "_id": "5cd4720b38122d571ed295e9"
+          }
+        },
+        "businessUnit": {
+          "name": "Clog Manufacturing",
+          "code": "00001",
+          "type": "RegisteredOffice",
+          "_id": "5cde3ea859c0464c8acfa562"
+        }
+      }
+    }
+  ],
+  "inventories": [
+    {
+      "conversions": [
+
+      ],
+      "inventory": {
+        "price": {
+          "MRP": {
+            "value": 450
+          }
+        },
+        "unitMeasure": "Pcs",
+        "productSubCategoryName": "Footwear",
+        "productMainCategoryName": "",
+        "productName": "Sandal",
+        "productType": "Footwear",
+        "productCode": "NUTMGB",
+        "productDescription": "",
+        "brandName": "Clog",
+        "brandVariety": "",
+        "brandVarietyName": "Premium",
+        "manufacturers": [
+
+        ],
+        "unitOfMeasureName": "Box (10 Kgs)",
+        "stockMasters": [
+
+        ],
+        "inventoryImages": [
+          {
+            "imageURL": "https://i.pinimg.com/originals/0d/f9/d2/0df9d2839d71ac0a65805112c6e35bfc.jpg",
+            "croppedImageURL": "https://i.pinimg.com/originals/0d/f9/d2/0df9d2839d71ac0a65805112c6e35bfc.jpg",
+            "_id": "5cde3eac59c0464c8acfa855"
+          }
+        ]
+      },
+      "stockMasters": [
+        {
+          "count": 1,
+          "conversions": [
+
+          ],
+          "orders": [
+
+          ],
+          "stockData": {
+            "count": 1,
+            "stockMaster": {
+              "code": "00728-00001-17052019-00001",
+              "batchNumber": "00728-00001-17052019-00001"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "companyData": {
+    "company": {
+      "name": "Sales inventory@clog.com",
+      "code": "00730",
+      "profileImageURL": "https://i.ibb.co/8YVktbh/shopperstop.jpg",
+      "croppedProfileImageURL": "modules/companies/img/company/nvc-company-resize-240-240.png",
+      "_id": "5cde3eb159c0464c8acfaade",
+      "addresses": [
+        {
+          "addressLine": "Gopalan Mall",
+          "city": "Bangalore",
+          "country": "India"
+        }
+      ],
+      "registrationCategory": {
+        "name": "Retailer",
+        "description": "Proactive pilferage prevention <br> Automate the hectic manual processes <br> Real-time traceability over your products",
+        "_id": "5cd4720b38122d571ed295f6"
+      }
+    },
+    "businessUnit": {
+      "name": "Shoppers Stop",
+      "code": "00001",
+      "type": "RegisteredOffice",
+      "_id": "5cde3eb259c0464c8acfaae7"
+    }
+  },
+  "orders":[]
+}

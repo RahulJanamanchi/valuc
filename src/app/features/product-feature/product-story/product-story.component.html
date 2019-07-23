@@ -1,0 +1,68 @@
+
+<!--Designer Story -->
+
+
+  <!-- <div class="container designerstory" fxLayout="column"  [style.background-image]="getImgURL(designerImage)" class="designerimage"> -->
+    <!--Camera and menu-->
+    
+    <!--Tagline and designed by-->
+    <!-- <div class="container designerdetails" fxLayoutAlign="center center" fxLayout="column">
+      <p class="tagLine"> Carftsmanship</p>
+      <p class="designername">Desingned By {{desinername}}</p>
+      <a [href]="designerWebsiteURL"  target="_blank"><div class="websitebutton" (click)="openDesignerWebsite()"><svg-icon class="websiteimage" src="assets/icons/globe.svg"></svg-icon></div></a>
+    </div> -->
+    
+    <!--About desiner-->
+    <!-- <div class="designerabout">
+      <p>About Branda Blystone</p>
+      <p class="designerphilosophy">Most people feel they have some basic flaws with their appearance, and the truth is
+        that the stars are no
+        exception.</p>
+    </div>
+  </div> -->
+
+  <!--Product Story in for loop image and description-->
+<div class="container page" fxLayout="column">
+  <!-- Introduction of story section -->
+  <div class="container designerstory" [style.background-image]="getImgURL(storydata['imageUrl'])" class="designerimage">
+    <div class="container designerdetails" fxLayoutAlign="center center" fxLayout="column">
+      <div class="menu" fxLayout="row" fxLayoutGap="1700px" >
+        <img  src="assets/homeicon.svg" (click)="gotoRoute('/product/home')" class="backtohome"/>
+        <img  src="assets/icons/Cameraicon.svg" (click)="gotoRoute('/scan/qr-code')" class="cameraimg"/>
+      </div>
+      <p class="tagLine"> {{storydata['title']}}</p>
+   </div>
+  </div>
+  <div *ngIf="storydata['description']">
+      <p class="itemdescription">
+          {{storydata['description']}}
+          </p>
+  </div>
+    
+    <!-- Stories starts -->
+  <div div class="container" fxLayout="column">
+    <div *ngFor="let data of storydata['story']" >
+        <div class="container productStory" fxLayout="column">
+            <p *ngIf="data['title']" class="storyheading">{{data['title']}}</p>
+            <img *ngIf="data['imageUrl']"  class="storyImage" [src]="data['imageUrl']" />
+                <p *ngIf="data['imageData']" class="itemdescription">
+                  {{data['imageData']}}
+                </p>
+            
+            <mat-video *ngIf="data['videoUrl']" [src]="data['videoUrl']" [fullscreen]=false [quality]=false [keyboard]=true ></mat-video>
+                <p *ngIf="data['videoData']" class="itemdescription">
+                  {{data['videoData']}}
+                </p>
+        </div>
+    </div>
+    <!-- story buttons -->
+    <div *ngIf="isStoryData"  fxAlign="end" fxLayout="row" fxLayoutAlign="center" class="stories">
+            <div *ngFor="let story of storyData"  class="prod-properties">
+                <app-story-button *ngIf="storydata['title']!=story['title']" [story]="story" [page]="pageFlag"></app-story-button>
+            </div>
+    </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,80 @@
+
+<div  [ngStyle]="styleBackGround()">
+    
+  <header [style.background-image]="'assets/icons/homeBackground.jpg'" [style.background-size] = "'cover'" fxLayout="column">
+      <div class="header-content" fxLayout="row"  fxLayoutAlign="space-between center" fxAlign="start">
+
+              <img src="assets/icons/Camera icon.svg" (click)="gotoRoute('/scan')">
+
+          <div>
+              <div id="google_translate_element"></div>
+            <div  fxLayout="column" fxLayoutAlign="space-between center" >
+              <!-- <div>
+                <h4 class="store" > Lifestyle-store </h4>
+              </div> -->
+              <div fxLayout="row">
+                <!-- <img class="location-icon" src="assets/icons/locations.svg" > -->
+                <h5 class="store-address"> Richmond circle, Bangalore </h5>
+              </div>
+            </div>
+          </div>
+          <div>
+              <button class="btn pill" [class.mat-elevation-z8]="true" fxLayout="row" fxLayoutAlign="center center" (click)="gotoRoute('/product/rating')">
+                  <svg-icon class="star" src="assets/icons/star.svg" [svgStyle]="getStar()"></svg-icon>
+                  <div class="rating"> 4.6</div>
+              </button>
+          </div>
+      </div>
+       <div class="prod-details"  fxAlign="end" fxLayout="column" fxLayoutAlign="end end" >
+          <svg-icon class="checked" *ngIf="checkedTrue" src="assets/images/checked.svg" [svgStyle]="getCorrect()"></svg-icon>
+     
+        <img src="assets/icons/right.svg" class="right-arrow" (click)="toFirstStory('/product/story')">
+        <p class="price"> ₹ 3,756 </p>
+        <h1 class="prod-title"> Tickling Pink Stripe Shirt </h1>
+      </div>
+
+      <div *ngIf="isStoryData"  fxAlign="end" fxLayout="row" fxLayoutAlign="center" class="storyComponent" >
+        <div *ngFor="let story of storyData" class="prod-properties">
+            <app-story-button [story]="story" [page]="pageFlag"></app-story-button>
+        </div>
+
+        <!-- <div class="property" fxLayout="column" fxLayoutAlign="center center"
+        (click)="gotoRoute('/product/story')">
+          <button class="property-image" [class.mat-elevation-z8]="true">
+            <img style="height: 100%; width: 100%;" src="assets/icons/thread.svg">
+          </button>
+          <article class="property-label">Story</article>
+        </div>
+
+        <div class="property" fxLayout="column" fxLayoutAlign="center center"
+        (click)="gotoRoute('/product/story')">
+          <button class="property-image" [class.mat-elevation-z8]="true">
+            <img style="height: 100%; width: 100%;" src="assets/icons/path.svg">
+          </button>
+          <article class="property-label">Journey</article>
+        </div>
+
+        <div class="property" fxLayout="column" fxLayoutAlign="center center"
+        (click)="gotoRoute('/product/story')">
+          <button class="property-image" [class.mat-elevation-z8]="true">
+            <img style="height: 100%; width: 100%;" src="assets/icons/clean.svg">
+          </button>
+          <article class="property-label">Usage</article>
+        </div>
+
+        <div class="property" fxLayout="column" fxLayoutAlign="center center"
+        (click)="gotoRoute('/product/story')">
+          <button class="property-image" [class.mat-elevation-z8]="true">
+            <img style="height: 100%; width: 100%;" src="assets/icons/ecology.svg">
+          </button>
+          <article class="property-label">Ecofriendly</article>
+        </div> -->
+      </div>
+  </header>
+
+<footer>
+    <div class="image-box" fxLayout="row" fxLayoutAlign="space-evenly">
+      <img class="footer-image" *ngFor="let image of imageArray; let i = index" [src]="image">
+    </div>
+</footer>
+</div>

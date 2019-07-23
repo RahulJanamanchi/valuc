@@ -1,0 +1,18 @@
+
+<div *ngIf="fromParent; else notFromParent">
+    <app-transport-event-details [trackerNode]="trackerNode.parentNode"></app-transport-event-details>
+</div>
+<ng-template #notFromParent>
+    <app-transport-event-details [trackerNode]="trackerNode"></app-transport-event-details>
+</ng-template>
+<div *ngIf="isShippedFromOneOrMoreSupplier(trackerNode); else nosupplier">
+    <app-businessunit-details [trackerNode]="trackerNode"></app-businessunit-details>
+</div>
+<ng-template #nosupplier>
+<app-businessunit-details [trackerNode]="trackerNode"></app-businessunit-details>
+</ng-template>
+
+
+<div *ngFor="let childorder of supplierOrders; let i = index">
+        <app-tracker-node [trackerNode]="childorder" [fromInsideComponent]="true"></app-tracker-node>
+</div>

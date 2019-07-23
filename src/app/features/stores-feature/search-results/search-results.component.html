@@ -1,0 +1,10 @@
+<strong>Search Results:</strong>
+
+<div class="no-results" *ngIf="results.length === 0">
+  No matches found
+</div>
+
+<div class="result" *ngFor="let result of results">
+  <span class="location">{{result}}</span>
+  <app-icon src="visit"></app-icon>
+</div>

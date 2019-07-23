@@ -1,0 +1,17 @@
+<!-- <canvas #canvas></canvas> -->
+<video #video playsinline autoplay></video>
+<!-- <canvas #canvasOverlay></canvas> -->
+
+<strong></strong>
+<header>
+  <div class="container" fxLayout="row">
+    <div fxFlex="30%" fxLayoutAlign="start">
+      <svg-icon  src="assets/icons/Backbutton.svg" (click)="back.emit()"></svg-icon>
+    </div>
+    <div fxFlex="80%" class="container" fxLayout="row" fxLayoutAlign="end end">
+      <div><img class="cameraflip" src="assets/icons/InvertCam.png"  (click)="switchCamera()"/></div>
+      <div><img class="flashbutton" src="assets/icons/Flash.png" (click)="toggleFlash(true)" /></div>
+    </div>
+  </div>
+
+</header>

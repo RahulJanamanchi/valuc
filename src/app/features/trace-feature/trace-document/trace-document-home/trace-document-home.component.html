@@ -1,0 +1,33 @@
+<div class="container header" [style.background-image]="getImgURL(backgroundImageURL)" fxLayout="column"
+  fxLayoutGap="40px">
+  <div class="container" fxLayout="row">
+    <div fxFlex=20% class="headerrow" fxLayoutAlign="start">
+      <!-- <app-icon variant="fab" src="back" (click)="toTracePage()"></app-icon> -->
+      <svg-icon src="assets/icons/backbutton.svg" [svgStyle]="getStyle()" (click)="toProductPage()"></svg-icon>
+    </div>
+    <div fxFlex=80%></div>
+  </div>
+  <div class="productdetails">
+    <div *ngIf="product">
+      <article class="product-name">{{product.productName}}</article>
+      <article class="brand-name">{{product.brandName}} ({{product.unitOfMeasureName}})</article>
+      <article class="product-quantity">Batch : {{batchNumber}}
+      </article>
+    </div>
+    <div *ngIf="businessUnit">
+      <article class="product-name">{{businessUnit.name}}</article>
+      <article class="brand-name">{{businessUnit.type}}</article>
+    </div>
+  </div>
+</div>
+<app-tabs>
+  <app-tab tabTitle="Certificates">
+      <app-trace-document-certificates [certificates]="certificates"></app-trace-document-certificates>
+  </app-tab>
+  <app-tab tabTitle="Images">
+    <app-trace-document-images [images]="imageURLs"></app-trace-document-images>
+  </app-tab>
+  <app-tab tabTitle="Videos">
+    <app-trace-document-videos [videos]="videoURLs"></app-trace-document-videos>
+  </app-tab>
+</app-tabs>

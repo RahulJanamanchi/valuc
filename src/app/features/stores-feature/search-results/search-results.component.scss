@@ -1,0 +1,35 @@
+@import "utils";
+@import "variables";
+
+:host {
+  flex: none;
+}
+
+strong {
+  display: block;
+  padding: 16px 24px 8px;
+  font-size: 20px;
+  font-family: $font-bold;
+}
+
+.no-results {
+  margin: 8px 24px;
+  color: $contrast-color;
+}
+
+.result {
+  @include flex-layout(row);
+  margin: 8px 24px;
+  border-bottom: 1px solid $grey-color;
+  &:last-of-type {
+    margin-bottom: 24px;
+  }
+}
+.location {
+  flex: 1;
+}
+app-icon {
+  flex: none;
+  margin-left: auto;
+  color: $grey-color;
+}

@@ -1,0 +1,63 @@
+<div class="container" *ngIf="isData">
+
+  <div class="cardprogress" *ngFor="let keyValue of evidenceData">
+    <!-- Card and progress bar -->
+  <div>
+    <mat-card class="card">
+
+      <div class="image-container">
+        <img class="value-image" [src]="keyValue['imageUrl']"/>
+      </div>
+
+      <mat-divider [vertical]="true"></mat-divider>
+      
+      <div style="flex-grow: 10">
+        <h3>{{keyValue['type']}}</h3>
+        <div><small [ngStyle]="{'color': keyValue['color']}">{{keyValue['location'][0]['numberEvidences']}} Evidences</small></div>
+      </div>
+
+      <div class="image-container">
+        <a (click)="evidence(keyValue['type'])"><button mat-icon-button ><img class="arrow" src="assets/icons/right-arrow.svg" /></button></a>
+      </div>
+    </mat-card>
+
+    <!-- Progress bar attahed to card -->
+    <div class="progress-bar" [ngStyle]="{'background-color': keyValue['çolor']}"></div>
+  </div><br>
+
+  </div>
+  <!-- <button (click)="navigateToStory()">
+    Story
+  </button> -->
+</div>
+
+
+<!-- 
+
+
+
+<div class="card mb-3 container-fluid " style="max-width: 540px; ">
+    <div class="row">
+      <div class="col-2 align-self-center" style="padding: auto auto" >
+          <div class="row align-items-center">
+            <img class="col align-self-center" src="assets/icons/clean.svg" height="auto" width="auto" />
+          </div>  
+        </div>
+  
+      <div class="col-10 align-self-center" style= "border-left: thin solid #3f3f3f6b;">
+          <div class="row">
+  
+            <div class="card-body col-10">
+              <h4 class="card-title">Hygiene</h4>
+              <div class="card-text"><small style="color:#04CFFF">1 Evidences</small></div>
+            </div>
+  
+            <div class="col-2 align-self-center">
+              <a href="" style="text-decoration: none"> > </a>
+            </div>
+        </div>
+      </div>
+      <div class="progress-bar" style="background-color:#04CFFF ;height: 0.3rem; width:25%"></div>
+    </div>
+    
+</div> -->

@@ -1,0 +1,12 @@
+<div class='nav-page' [class.visible] = "!isNavbarCollapsed">
+  <div class='menu-toggle' (click)="toggleMenu()">
+    <img src="assets/icons/Menu.svg" alt="">
+  </div>
+  <div *ngIf="!isNavbarCollapsed">
+    <ul class='menus'>
+      <li *ngFor="let menu of menus">
+        <a [routerLink]="menu.routeLink" (click)="toggleMenu()">{{menu.name}}</a>
+      </li>
+    </ul>
+  </div>
+</div>

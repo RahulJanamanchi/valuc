@@ -1,0 +1,23 @@
+
+  <div div class="container" fxLayout="column">
+      <div class="container designerstory" [style.background-image]="getImgURL(ratingImage)" class="reviewimage">
+          <div class="container header" fxLayoutAlign="center center" fxLayout="column">
+            <div class="menu" fxLayout="row" fxLayoutGap="1700px" >
+              <img  src="assets/homeicon.svg" (click)="gotoRoute('/product/home')" class="backtohome"/>
+              <img  src="assets/icons/Cameraicon.svg" (click)="gotoRoute('/scan/qr-code')" class="cameraimg"/>
+            </div>
+            <p class="tagLine"> Customer Reviews</p>
+         </div>
+        </div>
+      <div *ngFor="let data of stories" >
+          <div class="container productStory" fxLayout="column">
+              <p class="storyheading">{{data.heading}}</p>
+              <star-rating [starType]="'svg'" [rating]="data['stars']" [showHalfStars]="true" [readOnly]="true" style="box-align: left"></star-rating>
+              <p class="itemdescription">
+                {{data.description}}
+              </p>
+          </div>
+      </div>
+  </div>
+  
+  

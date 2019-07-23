@@ -1,0 +1,40 @@
+@import "utils";
+@import "variables";
+
+:host {
+  padding: 16px 24px;
+  @include flex-layout(row);
+  align-items: center;
+}
+
+.back-icon {
+  margin-right: 32px;
+}
+.pin-icon {
+  margin-left: 32px;
+}
+
+.search-box {
+  position: relative;
+  flex: 1 1 auto;
+}
+.search {
+  box-sizing: border-box;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50px;
+  padding: 0 32px;
+  border: 0;
+  color: $contrast-color;
+  background: $primary-color;
+  &:focus {
+    outline: 0;
+  }
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,39 @@
+
+.button.pill{
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+  
+    color: black;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  
+  
+  .active{
+    background-color: rgb(120, 201, 0);
+  }
+
+.buttonColor{
+  background-color: rgb(42, 224, 6);
+  border-color: rrgb(25, 221, 51);
+  
+  }
+.button{
+	text-decoration:none;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 15px;
+	line-height:32px;
+	height: auto;
+	display:inline-block;
+	text-align:center;
+ //background-color: white;
+  border-radius: 50%;
+  border-color: rgb(42, 224, 6);
+  border-style: solid;
+  border-width: 2px;
+  margin:2px;
+}

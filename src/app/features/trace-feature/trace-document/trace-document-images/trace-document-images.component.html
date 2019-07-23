@@ -1,0 +1,9 @@
+<div *ngIf="imagesPresent(); else noimages" class="container" fxLayout="row">
+  <div *ngFor="let image of images">
+    <img [src]="getImgURL(image)" class="facility-img">
+  </div>
+</div>
+
+<ng-template #noimages>
+  <div> There are no images present</div>
+</ng-template>

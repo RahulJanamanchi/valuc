@@ -1,0 +1,20 @@
+<div class="container" fxLayout="row" fxLayoutAlign="left">
+  <div fxFlex="20%" fxLayoutAlign="center center" class="imgContainer">
+    <img
+      class="itemimg"
+      [src]="image"
+      height="auto"
+      width="auto"
+    />
+  </div>
+  <div fxFlex="60%" class="contentmargin">
+    <strong>
+      <div>{{ productDetails.productName }}</div>
+    </strong>
+    <div>Batch No: {{ batchNumber }}</div>
+    <div>Serial No: {{ serialNo }}</div>
+  </div>
+  <div fxFlex="20%"  fxFlexAlign="center" (click)="loadDocuments()">
+      <img class="certificateicon" src="assets/icons/file_text.svg">
+  </div>
+</div>

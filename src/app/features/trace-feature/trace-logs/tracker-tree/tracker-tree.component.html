@@ -1,0 +1,47 @@
+<!-- <mat-tab-group class="stretched-tabs mat-elevation-z4"  mat-align-tabs="center">
+  <mat-tab label="List View">
+      <ng-template mat-tab-label style="color:#299F26">
+          <img src="assets/icons/list-with-dots.svg" alt="" class="replace-later">List View
+      </ng-template>
+      <app-tracking-item-details [inventories]="inventories" ></app-tracking-item-details>
+      <app-businessunit-details [trackerNode]="node.data"></app-businessunit-details>
+      <div *ngIf="node.data.children && node.data.children.length>0">
+          <app-transport-event-details [trackerNode]="node.data" ></app-transport-event-details>
+      </div>
+      <div *ngFor="let item of node.data.children"  >
+      <app-tracker-node [trackerNode]="item" [fromInsideComponent]="fromInsideComponent"></app-tracker-node>
+      </div>
+      <ng-template child-nodes></ng-template>
+    </mat-tab>
+  <mat-tab class="map-tab">
+    <ng-template mat-tab-label>
+      <img src="assets/icons/map-marked.svg" alt="" class="replace-later">Map View
+    </ng-template>
+    <div class="map">
+      <app-maps [data]="mockdata"></app-maps>
+    </div>
+    <mat-tab-group class="mat-elevation-z2" *ngIf="true">
+      <mat-tab label="Events">
+a
+      </mat-tab>
+      <mat-tab label="Lifecycles">
+b
+      </mat-tab>
+      <mat-tab label="Facilities">
+b
+      </mat-tab>
+    </mat-tab-group>
+  </mat-tab> 
+</mat-tab-group> -->
+<app-tracking-item-details [inventories]="inventories" ></app-tracking-item-details>
+<app-businessunit-details [trackerNode]="node.data"></app-businessunit-details>
+<!-- <div *ngIf="node.data.children && node.data.children.length>0">
+    <app-transport-event-details [trackerNode]="node.data" ></app-transport-event-details>
+</div> -->
+<!-- <div *ngIf="isShippedFromOneOrMoreSupplier(node.data)">
+  <app-tracker-node [trackerNode]="node.data.children[0]" [fromInsideComponent]="fromInsideComponent"></app-tracker-node>
+</div> -->
+<!-- <ng-template #nosupplier>
+    <app-tracker-node [trackerNode]="node.data" [fromInsideComponent]="fromInsideComponent"></app-tracker-node>
+</ng-template> -->
+<ng-template child-nodes></ng-template>

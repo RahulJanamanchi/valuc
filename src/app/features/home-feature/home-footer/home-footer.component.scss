@@ -1,0 +1,13 @@
+@import "utils";
+@import "variables";
+
+:host {
+  flex: auto;
+  @include flex-layout(row);
+  justify-content: center;
+  height: 25vh;
+}
+.camIcon{
+  height: 10vh;
+  margin-bottom:20vh;
+}

@@ -1,0 +1,1 @@
+//# sourceMappingURL=registrationcategory.model.js.map

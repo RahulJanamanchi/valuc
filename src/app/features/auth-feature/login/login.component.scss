@@ -1,0 +1,47 @@
+@import "variables";
+@import "utils";
+
+:host {
+  @include full-page;
+  // @include full-background;
+  // background-image: url("~/assets/icons/icon-72x72.png");
+  background:white;
+  background-image:linear-gradient(to bottom, rgba(154,204,157,1), rgba(252,0,0,0)),url("~/assets/icons/logo-ring-color.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size:contain;
+  @include flex-layout(column);
+  & > * {
+    flex: none;
+  }
+}
+
+header {
+  // margin-top: auto;
+  margin-bottom: auto;
+}
+img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  object-fit: fill;
+}
+h3 {
+  text-align: center;
+  font-size: 36px;
+  color: $primary-color;
+}
+
+footer {
+  @include flex-layout(column);
+  align-items: center;
+}
+.buttonclass {
+  margin: 0 auto 10px;
+  width: 150px;
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  font-weight: bolder;
+}

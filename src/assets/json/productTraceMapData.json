@@ -1,0 +1,187 @@
+{
+  "productName": "Arla Gauda",
+  "sequence": "Ip1MijkG1mGu0c8K",
+  "batchNo": "00001-00001-31052019-00001",
+  "itemCode": "M1C",
+  "brand": "Arla Cheese",
+  "brandDetails": "Pack of 250 grams",
+  "imageURL": "assets/product.jpg",
+  "serialNo": "AB001",
+  "mfgDate": "010119",
+  "expDate": "020219",
+  "rating": 4.5,
+  "retailOutlet": "Ringsted Outlet retails",
+  "nodes": [
+    {
+      "businessUnitName": "HOCO Processor",
+      "location": "19.233, 23.56",
+      "_id": "q4jkqjh4kjq4hqw4",
+      "Duration": "2d 4h",
+      "facilityAssets": [
+        {
+          "name": "Processing facility",
+          "imageUrls": [
+            "images\facilites\\1\\1.jpg",
+            "images\facilites\\1\\2.jpg",
+            "images\facilites\\1\\2.jpg"
+          ]
+        },
+        {
+          "name": "Storage facility",
+          "imageUrls": [
+            "images\facilites\\3\\1.jpg",
+            "images\facilites\\3\\2.jpg",
+            "images\facilites\\3\\2.jpg"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "documentName": "Organic Certification",
+          "documentUrl": "some\\location\file.pdf",
+          "thumbnailUrl": "assets\file.jpg",
+          "issueDate": "23rd Jan 2018 "
+        },
+        {
+          "documentName": "DVFA Certification",
+          "documentUrl": "some\file.pdf",
+          "thumbnailUrl": "assets\\certificates\file1.jpg",
+          "issueDate": "2nd Feb 2019 "
+        }
+      ],
+      "lifecycle": [
+        {
+          "name": "temperature",
+          "graph": {
+            "xAxis": "Minutes",
+            "yAxis": "Temperature",
+            "xvalues": [0,5,10,15,20,25,30,35,40,45],
+            "yvalues": [23,30,34,37,31,29,28,34,32,31]
+          },
+          "labelColor": "red"
+        },
+        {
+          "name": "density",
+          "graph": {
+            "xAxis": "hours",
+            "yAxis": "density",
+            "xvalues": [0,5,10,15,20,25,30,35,40,45],
+            "yvalues": [23,30,34,37,31,29,28,34,32,31]
+          },
+          "labelColor": "green"
+        }
+      ],
+      "productsEventsMap": [
+        {
+          "productName": "Cow Milk",
+          "sequence": "K8f5jkG1mGu0c8K",
+          "batchNo": "00030-00001-31052019-00001",
+          "itemCode": "M0C",
+          "imgUrl": "assets\\loc.jpg",
+          "steps": [
+            {
+              "eventName": "Bottled",
+              "date": "07 Jan 19, 6:15 AM",
+              "imageUrl": "assests\rand.jpg"
+            },
+            {
+              "eventName": "Milked",
+              "date": "07 Jan 19, 4:00 AM",
+              "imageUrl": "assests\rand.jpg"
+            }
+          ]
+        },
+        {
+          "productName": "Lactose",
+          "sequence": "J9hkG1mGu0c8K",
+          "batchNo": "31052019-00001",
+          "itemCode": "M0L",
+          "imgUrl": "assets\\loc.jpg",
+          "steps": [
+            {
+              "eventName": "Packaged",
+              "date": "06 Jan 19, 6:15 AM",
+              "imageUrl": "assests\rand.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "businessUnitName": "Kirke Skensved",
+      "location": "32.34, 32.13",
+      "_id": "kasf8ihkjnafs3",
+      "Duration": "4h",
+      "facilityAssets": [
+        {
+          "name": "Purification facility",
+          "imageUrls": [
+            "images\facilites\\3\\1.jpg",
+            "images\facilites\\4\\2.jpg",
+            "images\facilites\\4\\2.jpg"
+          ]
+        },
+        {
+          "name": "Some othet facility",
+          "imageUrls": [
+            "images\facilites\\3\\1.jpg",
+            "images\facilites\\4\\2.jpg",
+            "images\facilites\\4\\2.jpg"
+          ]
+        }
+      ],
+      "lifecycle": [
+        {
+          "name": "temperature",
+          "graph": {
+            "xAxis": "Minutes",
+            "yAxis": "Temperature",
+            "xvalues": [0,5,10,15,20,25,30,35,40,45],
+            "yvalues": [23,30,34,37,31,29,28,34,32,31]
+          },
+          "labelColor": "red"
+        },
+        {
+          "name": "density",
+          "graph": {
+            "xAxis": "hours",
+            "yAxis": "density",
+            "xvalues": [0,5,10,15,20,25,30,35,40,45],
+            "yvalues": [23,30,34,37,31,29,28,34,32,31]
+          },
+          "labelColor": "green"
+        }
+      ],
+      "documents": [
+        {
+          "documentName": "Organic Certification",
+          "documentUrl": "some\\location\file.pdf",
+          "thumbnailUrl": "assets\file.jpg",
+          "issueDate": "23rd Jan 2018 "
+        },
+        {
+          "documentName": "DVFA Certification",
+          "documentUrl": "some\file.pdf",
+          "thumbnailUrl": "assets\\certificates\file1.jpg",
+          "issueDate": "2nd Feb 2019 "
+        }
+      ],
+      "productsEventsMap": [
+        {
+          "productName": "Cow Milk",
+          "sequence": "K8f5jkG1mGu0c8K",
+          "batchNo": "00030-00001-31052019-00001",
+          "itemCode": "M0C",
+          "imgUrl": "assets\\loc.jpg",
+          "steps": [
+            {
+              "eventName": "Bottled",
+              "date": "07 Jan 19, 6:15 AM",
+              "imageUrl": "assests\rand.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+mat-divider{
+    margin-left:16px; 
+    margin-right:16px;
+}
+
+.container{
+    display:flex ; 
+    flex-flow:column nowrap; 
+    align-items: center; 
+    justify-content: center;
+}
+.cardprogress{
+    width: 100%;
+
+    @media (min-width: 48em) {
+        width:75%;
+    }
+}
+
+.card{
+    display:flex; 
+    flex-flow: nowrap;
+}
+
+.value-image{
+    height:100%; width:100%; min-height: 50px; min-width: 50px; max-height: 70px; max-width: 70px 
+}
+
+.image-container{
+    flex-grow: 1 ; 
+    display:flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.arrow{
+    max-width: 50%; height: 50%;
+}
+
+.progress-bar{
+    height: 0.3rem;
+}

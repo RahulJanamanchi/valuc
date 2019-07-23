@@ -1,0 +1,13 @@
+@import "utils";
+@import "variables";
+
+:host {
+  @include full-page;
+  @include flex-layout(column);
+  background-color:white;
+  margin: 0 auto;
+  border-left:1px solid #BBB;
+  border-right: 1px solid #BBB;
+  height: calc(100vh- 1px);
+}
+

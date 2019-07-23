@@ -1,0 +1,49 @@
+<div class="container header" [style.background-image]="getImageUrl(product.gallery.images[0].imageURL)"
+    fxLayout="column" fxLayoutGap="10%">
+    <div class="container headerrow" fxLayout="row">
+        <div fxFlex=20% fxLayoutAlign="start">
+            <svg-icon src="assets/icons/Backbutton.svg" (click)="toProductPage()"></svg-icon>
+        </div>
+        <div fxFlex=70%></div>
+        <div fxFlex=15%>
+            <!-- Rating here -->
+        </div>
+    </div>
+    <div class="productdetails">
+        <article class="product-name">{{product.productName}}</article>
+        <article class="brand-name">{{product.brandName}} ({{product.unitOfMeasureName}})</article>
+        <article class="product-quantity">Batch : {{inventories.stockMasters[0].stockData.stockMaster.batchNumber}}
+        </article>
+        <article class="sequenceno">Sr. {{inventories.stockMasters[0].items[0].stockItem.sequence}}</article>
+    </div>
+    
+        <div *ngIf="percentTimeRemaining >= 70" class="matbar">
+            <mat-progress-bar class="progressbarheight" mode="determinate" [value]="percentTimeRemaining"
+                color="primary">
+            </mat-progress-bar>
+            <div class="expDate"> EXP:{{expDate}}</div>
+            <div class="mfgDate">MFG:{{mfgDate}}</div>
+        </div>
+        <div *ngIf="percentTimeRemaining < 70 && percentTimeRemaining > 30 " class="matbar">
+            <mat-progress-bar class="progressbarheight" mode="determinate" [value]="percentTimeRemaining"
+                color="accent">
+
+            </mat-progress-bar>
+            <div class="expDate">EXP:{{expDate}}</div>
+            <div class="mfgDate">MFG:{{mfgDate}}</div>
+        </div>
+        <div *ngIf="percentTimeRemaining <=30 && percentTimeRemaining > 0 " class="matbar">
+            <mat-progress-bar class="progressbarheight" mode="determinate" [value]="percentTimeRemaining" color="warn">
+
+            </mat-progress-bar>
+            <div class="expDate"> EXP:{{expDate}}</div>
+            <div class="mfgDate">MFG:{{mfgDate}}</div>
+        </div>
+        <div *ngIf="percentTimeRemaining==0" class="matbar">
+            <mat-progress-bar class="progressbarheight" mode="determinate" [value]="100" color="warn">
+            </mat-progress-bar>
+            <div class="expired"> Expired</div>
+        </div>
+
+    </div>
+

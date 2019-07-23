@@ -1,0 +1,9 @@
+<div *ngIf="productGrades.length>0">
+  <div class="div-table" *ngFor="let grade of productGrades">
+    <div class="div-table-row">
+      <div class="div-table-col1">{{ grade.attributeKey }} : </div>
+      <div class="div-table-col2">{{ grade.attributeValue }}</div>
+    </div>
+  </div>
+</div>
+<div *ngIf="productGrades.length<=0">Grade data is not present for this product</div>

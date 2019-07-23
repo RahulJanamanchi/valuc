@@ -1,0 +1,37 @@
+@import "utils";
+@import "variables";
+
+
+:host{
+  @include flex-layout(column);
+
+}
+.home{
+  height: 100vh;
+}
+.btn{
+
+	text-decoration:none;
+	color:#333333;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 15px;
+	line-height:42px;
+	display:inline-block;
+	text-align:center;
+}
+
+.btn.pill{
+
+  width:75%;
+  margin-left: 10%;
+  margin-block-end: 5%;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+

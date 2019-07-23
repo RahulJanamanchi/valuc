@@ -1,0 +1,11 @@
+
+<div *ngIf="!flag" class="property" fxLayout="column" fxLayoutAlign="center center"
+        (click)="setStory()">
+            <button class="property-image" [class.mat-elevation-z8]="true">
+              <img  class="" [src]="story['logoUrl']">
+            </button>
+            <div *ngIf="page">
+              <h4 class="property-label">{{story['title']}}</h4>
+            </div>
+            
+</div>

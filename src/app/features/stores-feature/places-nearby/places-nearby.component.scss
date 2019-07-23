@@ -1,0 +1,38 @@
+@import "utils";
+@import "variables";
+
+:host {
+  flex: 1 0 210px;
+  @include flex-layout(column);
+  padding: 16px 0;
+}
+.header {
+  flex: none;
+  padding: 0 24px 8px;
+}
+.places-viewport {
+  flex: 1 1 0;
+}
+
+.place-item {
+  margin: 0 24px;
+  padding: 8px 0;
+  border-bottom: 1px solid $grey-color;
+}
+.location, .stores {
+  display: inline-block;
+  width: calc(50% - 8px);
+}
+.location {
+  padding-right: 8px;
+}
+.stores {
+  padding-left: 8px;
+  text-align: right;
+}
+
+strong {
+  display: block;
+  font-size: 18px;
+  font-family: $font-bold;
+}

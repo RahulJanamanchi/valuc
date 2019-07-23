@@ -1,0 +1,5 @@
+<article class="chip" *ngFor="let item of items">
+  <span class="badge">{{item.count}}</span>
+  <app-icon [src]="getIcon(item.label)" width="16" height="16"></app-icon>
+  <span class="label">{{item.label}}</span>
+</article>

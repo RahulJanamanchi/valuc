@@ -1,0 +1,33 @@
+<header>
+  <app-stores-header
+    (queryChange)="updateQuery($event)"
+    [query]="query"
+  ></app-stores-header>
+  <article class="location">
+  </article>
+</header>
+
+<app-search-results [results]="results" *ngIf="query !== ''; else product">
+</app-search-results>
+
+<ng-template #product>
+  <section class="product-overview">
+    <article class="product-name">
+      {{mockProduct.title}}
+    </article>
+    <article class="brand-name">
+      {{mockProduct.brand}}
+    </article>
+    <article class="product-quantity">
+      {{mockProduct.quantity}}
+    </article>
+    <img
+      class="product-icon"
+      src="/assets/product.png"
+    />
+  </section>
+</ng-template>
+
+<!-- <app-stores-nearby></app-stores-nearby>
+
+<app-places-nearby></app-places-nearby> -->

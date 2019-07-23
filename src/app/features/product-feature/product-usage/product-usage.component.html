@@ -1,0 +1,36 @@
+<app-navigation-menu [isNavbarCollapsed]="hidedNavbar">
+</app-navigation-menu>
+
+<div *ngIf="isExpanded">
+    <a (click)="toggleExpandImage()" class="closeImage">x</a>
+  <img [src]="main_image" alt="usage1" class="expandedImage">
+</div>
+
+<div class="page"   *ngIf="!isExpanded">
+  <div  class=" container product-images" fxLayout="row" fxLayoutFlow:left>
+    <div class="column1" style="background-color:black;">
+      <img [src]="camera_image" alt="usage" class="cameraimg" (click)="scanproduct()">
+      <img [src]="main_image" alt="usage1" class="mainimage">
+      <div class="textblock" fxLayout="row">
+        <img [src]="rupee_image" alt="Rupees" class="rupeeimage">
+        <span id='cost'>{{cost}}</span>
+        <img [src]="expand" alt="Expand" class="expand" (click)="toggleExpandImage()">
+      </div>
+
+    </div>
+    <!--Multiple images-->
+    <div class="column2" fxLayout="column" fxLayoutGap="0px">
+      <img *ngFor="let image of images" [src]="image" (click)="imageSelection(image)" alt="usage" class="usageimg">
+    </div>
+
+  </div>
+
+  <div class="bottom">
+    <div class="textheader">
+      Tickling Pink stripped Shirt
+    </div>
+    <div class="textdata">
+      {{data}}
+    </div>
+  </div>
+</div>

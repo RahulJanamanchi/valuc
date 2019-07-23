@@ -1,0 +1,46 @@
+@import "utils";
+@import "variables";
+
+:host {
+  @include full-page;
+  @include flex-layout(column);
+}
+
+header {
+  flex: none;
+  position: relative;
+  min-height: 150px;
+  background: url("~/assets/login.jpg") center / cover no-repeat;
+}
+.location {
+  color: $primary-color;
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  transform: translateX(-50%);
+}
+
+.product-overview {
+  flex: none;
+  position: relative;
+  padding: 16px 24px 16px 102px;
+}
+.product-icon {
+  position: absolute;
+  left: 24px;
+  top: 16px;
+  width: 62px;
+  height: 62px;
+  border-radius: 8px;
+}
+.product-name {
+  font-size: 24px;
+  font-family: $font-bold;
+}
+.brand-name {
+  font-size: 20px;
+  font-family: $font-bold;
+}
+.product-quantity {
+  font-size: 16px;
+}

@@ -1,0 +1,54 @@
+{
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    }, {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "nVipani",
+      "urls": [
+        "http://staging1.nvipani.com/publishedProductBrands",
+        "http://staging1.nvipani.com/scanProduct",
+        "http://staging1.nvipani.com/tracker"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 20,
+        "maxAge": "1h",
+        "timeout": "1m"
+      }
+    },
+    {
+      "name": "other",
+      "urls": [
+        "https://jsonplaceholder.typicode.com/photos"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 20,
+        "maxAge": "1h",
+        "timeout": "1m"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<button
+  type="button"
+  [ngClass]="[variant, size]"
+  (click)="click.emit($event)"
+>
+  <ng-content></ng-content>
+</button>

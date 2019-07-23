@@ -1,0 +1,40 @@
+<header>
+  <app-icon
+    src="back"
+    variant="fab"
+    (click)="backToScan()"
+  ></app-icon>
+</header>
+
+
+<main>
+  <section>
+    <canvas #qrcode></canvas>
+    <app-icon
+      src="denied"
+      width="62"
+      height="62"
+      variant="fab-error"
+    ></app-icon>
+    <strong>
+      This product is not available in secure list
+    </strong>
+    <app-button variant="contrast-error">
+      Report us
+    </app-button>
+    <app-button variant="outline">
+      Add as new
+    </app-button>
+  </section>
+</main>
+
+<footer>
+  <app-button
+    variant="glossy"
+    size="medium"
+    (click)="router.navigateByUrl('/scan')"
+  >
+    <app-icon src="retry"></app-icon>
+    Scan again
+  </app-button>
+</footer>

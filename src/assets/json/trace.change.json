@@ -1,0 +1,225 @@
+{
+    "inventoryDetails": {
+      "productName": "Women Sandal  Blue (Size-7)",
+      "unitOfMeasureName": "Pcs",
+      "productImage": "https://i.ibb.co/Jv44sy8/womanflipflop.jpg",
+      "brandName": "CLOG",
+      "eventType": "Tranport",
+      "batchNo": "24346576",
+      "serialNo": "343423234",
+      "sourceFacilityDetails": [{
+        "name": "CLOG",
+        "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+        "address": "Kengery Karnataka",
+        "type": "Manufacturer",
+        "eventLog": {
+            "eventName": "Transportation",
+            "eventDetails": "Transported 25 units"
+          }
+       }],
+      "destinationFacilityDetails": {
+        "name": "Shopper Stop",
+        "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+        "address": "Garuda Mall, MG Road, Bangalore",
+        "type": "Retail Outlet",
+        "eventLog": {
+            "eventName": "Received",
+            "eventDetails": "Recieved 25 units"
+          }
+      }
+      },
+      "childNodes": [
+        {
+          "inventoryDetails": {
+            "productName": "Wooden Sole",
+            "unitOfMeasureName": "Pcs",
+            "batchNumber": "BAT234234234",
+            "productImage": "https://i.ibb.co/L0K7qFb/rubber.jpg",
+            "brandName": "CLOG",
+            "brandVariety":"premium",
+            "sourceFacilityDetails": [{
+                "name": "CLOG",
+                "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                "address": "Kengery Karnataka",
+                "type": "Manufacturer",
+                "eventLog": {
+                    "eventName": "Manfactured",
+                    "eventDetails": "Manfactured 10 units"
+                  }
+              }],
+              "destinationFacilityDetails": {
+                "name": "CLOG",
+                "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                "address": "Kengery Karnataka",
+                "type": "Manufacturer",
+                "eventLog": {
+                    "eventName": "Manfactured",
+                    "eventDetails": "Manfactured 10 units"
+                  }
+              }
+          },
+          "childNodes": [
+          {
+              "inventoryDetails": {
+                  "productName": "Wood",
+                  "unitOfMeasureName": "Kgs",
+                  "batchNumber": "WD45443435",
+                  "productImage": "https://i.ibb.co/L0K7qFb/rubber.jpg",
+                  "brandName": "Goyal Sons",
+                  "brandVariety":"premium",
+                  "sourceFacilityDetails": [{
+                    "name": "Goyal Sons",
+                    "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                    "address": "Kengery Karnataka",
+                    "type": "Distributor",
+                    "eventLog": {
+                        "eventName": "Transportation",
+                        "eventDetails": "Transported 25 units"
+                      }
+                   }],
+                  "destinationFacilityDetails": {
+                    "name": "CLOG",
+                    "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                    "address": "Kengery Bangalore",
+                    "type": "Retail Outlet",
+                    "eventLog": {
+                        "eventName": "Received",
+                        "eventDetails": "Recieved 25 units"
+                      }
+                  }
+                },
+                "childNodes": [{
+                    "inventoryDetails": {
+                        "productName": "Wood",
+                        "unitOfMeasureName": "Kgs",
+                        "batchNumber": "WD45443435",
+                        "productImage": "https://i.ibb.co/L0K7qFb/rubber.jpg",
+                        "brandName": "Ramesh",
+                        "brandVariety":"premium",
+                        "sourceFacilityDetails": [{
+                          "name": "Ramesh's farm",
+                          "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                          "address": "Coorg KArnataka",
+                          "type": "Farmer",
+                          "eventLog": {
+                              "eventName": "Grower",
+                              "eventDetails": "Growed 25 kgs"
+                            }
+                         }],
+                        "destinationFacilityDetails": {
+                            "name": "Goyal Sons",
+                            "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                            "address": "Kengery Karnataka",
+                            "type": "Distributor",
+                            "eventLog": {
+                                "eventName": "Received",
+                                "eventDetails": "Received 25 kgs"
+                              }
+                        }
+                      },
+                      "childNodes": []
+                }]
+          },
+          {
+            "inventoryDetails": {
+                "productName": "Color",
+                "unitOfMeasureName": "Kgs",
+                "batchNumber": "WD45443435",
+                "productImage": "https://i.ibb.co/L0K7qFb/rubber.jpg",
+                "brandName": "Ramesh",
+                "brandVariety":"premium",
+                "sourceFacilityDetails": [{
+                    "name": "CLOG",
+                    "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                    "address": "Kengery Karnataka",
+                    "type": "Manufacturer",
+                    "eventLog": {
+                        "eventName": "Manfactured",
+                        "eventDetails": "Manfactured 10 units"
+                      }
+                  }],
+                "destinationFacilityDetails": {
+                    "name": "CLOG",
+                    "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                    "address": "Kengery Karnataka",
+                    "type": "Manufacturer",
+                    "eventLog": {
+                        "eventName": "Manfactured",
+                        "eventDetails": "Manfactured 10 units"
+                      }
+                }
+              },
+              "childNodes": []
+        }
+
+        ]
+        },
+        {
+          "inventoryDetails": {
+            "productName": "Wool Heal Pad",
+            "unitOfMeasureName": "Pcs",
+            "batchNumber": "BAT2346344234",
+            "productImage": "https://i.ibb.co/GJKFPSG/leather.jpg",
+            "brandName": "KK Wool",
+            "brandVariety":"premium",
+            "eventType": "Convert",
+            "sourceFacilityDetails": [{
+                "name": "KK Distributor",
+                "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                "address": "Chandani Chowk, Delhi",
+                "type": "Manufacturer",
+                "eventLog": {
+                    "eventName": "Transportation",
+                    "eventDetails": "Transported 25 units"
+                  }
+               }],
+              "destinationFacilityDetails": {
+                "name": "Clog",
+                "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                "address": "Kengery Karnataka ",
+                "type": "MAnufacturer",
+                "eventLog": {
+                    "eventName": "Received",
+                    "eventDetails": "Recieved 25 units"
+                  }
+              }
+          },
+          "childNodes": [
+            {
+                "inventoryDetails": {
+                  "productName": "Wool Pad",
+                  "unitOfMeasureName": "Pcs",
+                  "batchNumber": "NDFSDF3434",
+                  "productImage": "https://i.ibb.co/GJKFPSG/leather.jpg",
+                  "brandName": "KK Wool",
+                  "brandVariety":"premium",
+                  "eventType": "Convert",
+                  "sourceFacilityDetails": [{
+                      "name": "DK Distributor",
+                      "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                      "address": "ShuklaGanj, Kanpur",
+                      "type": "Distributor",
+                      "eventLog": {
+                          "eventName": "Transportation",
+                          "eventDetails": "Transported 25 metres"
+                        }
+                     }],
+                    "destinationFacilityDetails": {
+                        "name": "KK Distributor",
+                        "image": "https://i.ibb.co/jLzVNGK/shopperstop.jpg",
+                        "address": "Chandani Chowk, Delhi",
+                        "type": "Manufacturer",
+                        "eventLog": {
+                            "eventName": "Transportation",
+                            "eventDetails": "Transported 25 metres"
+                          }
+                    }
+                },
+                "childNodes": [
+                ]
+            }
+          ]
+        }
+      ]
+      
+    }

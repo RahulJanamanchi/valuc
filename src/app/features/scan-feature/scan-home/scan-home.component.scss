@@ -1,0 +1,6 @@
+@import "utils";
+
+:host {
+  @include full-page;
+  overflow: hidden;
+}

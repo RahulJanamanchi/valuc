@@ -1,0 +1,28 @@
+@import "utils";
+@import "variables";
+
+:host {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 24px;
+  @include glossy-effect;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  text-align: center;
+  
+}
+strong {
+  display: block;
+  margin: 8px auto 16px;
+  text-align: center;
+  font-style: Times;
+  font-size : 20px;
+  margin-top: 3.4vh;
+  margin-bottom: 5vh;
+}

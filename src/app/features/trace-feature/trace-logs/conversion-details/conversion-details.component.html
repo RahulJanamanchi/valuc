@@ -1,0 +1,85 @@
+<div fxLayout="row" class="container" *ngIf="!clicked">
+  <div fxFlex="20%"></div>
+  <div fxFlex="40%" (click)="toggleClick()" class="stacked-nodes" fxLayout="row wrap" fxLayoutAlign="start center"
+    fxLayoutGap="3px">
+    <img class="ingredientimage" [src]="getImageUrl(productDetails.gallery.images[0].imageURL)" />
+    <div class="manufacture-img-container">
+      <img src="assets/icons/manufacture.svg" />
+    </div>
+
+    <img class="ingredientimage" *ngFor="let node of ingredients"
+      [src]="getImageUrl(node.inventories[0].inventory.gallery.images[0].imageURL)" />
+  </div>
+  <!--info class for providing manufacturing details-->
+  <div fxFlex="40%" class="info">
+    <div>Manufactured with {{ingredients?ingredients.length:0}} items</div>
+    <div></div>
+  </div>
+</div>
+
+<div *ngIf="clicked">
+  <div class="container" fxLayout="column">
+      <div class="container" fxLayout="row">
+        <!-- Button to Stack -->
+        <div fxFlex="20%" fxLayoutAlign="center center">
+          <button class="hidebutton" (click)="destroyTrace(ingredients)">
+            Hide
+          </button>
+        </div>
+        <!-- Product Details -->
+        <div fxFlex="60%">
+          <div class="container contentmargin" fxLayout="row" fxLayoutGap="10px">
+            <div fxFlex="20%">
+              <img class="itemimg" [src]="getImageUrl(productDetails.gallery.images[0].imageURL)" />
+            </div>
+            <div class="contentmargin" fxFlex="80%">
+              <div>{{ productDetails.productName }}</div>
+              <div>{{ productDetails.brandName }}</div>
+            </div>
+          </div>
+        </div>
+        <div fxFlex="20%"></div>
+      </div>
+    <!-- Up arrow -->
+    <div class="container" fxLayout="row">
+        <div fxFlex="25%">
+          <img src="assets/icons/greenarrow.svg" height="30px" width="30px" style="margin-left: 6rem" />
+        </div>
+        <div fxFlex="75%"></div>
+    </div>
+      <!-- Ingredients -->
+    <div class="container">
+        <div *ngFor="let node of ingredients">
+          <div *ngIf="isConversionPresent(node)">
+            <app-conversion-details [trackerNode]="node"></app-conversion-details>
+          </div>
+          <div *ngIf="!isConversionPresent(node)" class="container" fxLayout="row" fxLayoutAlign="start center">
+            <!-- Button to Stack -->
+            <div  fxFlex="20%" fxLayoutAlign="center center">
+              <app-group-button [show]="isTracingPresent(node)" label="Trace" [node]="node"></app-group-button>
+              <!-- <button *ngIf="isTracingPresent(node)" class="tracebutton" (click)="loadTrackingDetails(node,$event)"
+                [ngClass]="{'tracing': traceClicked}">
+                Trace
+              </button> -->
+            </div>
+            <!-- Ingredient Details -->
+            <div class="container" fxLayout="row" fxFlex="60%">
+              <div class="contentmargin" fxFlex="20%" fxFlexAlign="center">
+                <img class="itemimg" [src]="getImageUrl(node.inventories[0].inventory.gallery.images[0].imageURL)"
+                  height="auto" width="auto" />
+              </div>
+              <div class="contentmargin" fxFlex="80%" fxFlexAlign="center">
+                <div>{{ node.inventories[0].inventory.productName }}</div>
+                <div>{{node.inventories[0].inventory.brandName}}</div>
+              </div>
+            </div>
+            <div fxFlex="20%">
+              <div *ngIf="isDocumentsPresent(node)">
+                <img class="certificateicon" src="assets/icons/file_text.svg" (click)="loadDocuments(node)"/>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

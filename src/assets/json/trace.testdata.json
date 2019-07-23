@@ -1,0 +1,511 @@
+{
+  "children": [
+    {
+      "productData": {
+        "conversions": [
+          {
+            "productData": {
+              "conversions": [
+                {
+                  "productData":{
+                    "conversions":[],
+                    "inventory":{
+                      "price": {
+                        "MRP": {
+                          "value": 100
+                        }
+                      },
+                      "unitMeasure": "Kgs",
+                      "productMainCategoryName": "",
+                      "productName": "Wood",
+                      "productCode": "",
+                      "productDescription": "Wood",
+                      "brandName": "Farmer",
+                      "brandVariety": "",
+                      "brandVarietyName": "Raw",
+                      "inventoryImages": [
+                        {
+                          "imageURL": "modules/inventories/img/itemmaster/itemmaster.svg",
+                          "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                          "_id": "5cde3eac59c0464c8acfa855"
+                        }
+                      ]
+                    },
+                    "stockMasters":[]
+                  },
+                  "orderData":{
+                      "orderNumber": "00728-00001-17052019-00001",
+                      "orderCreatedDate": "2019-05-17T04:55:15.141Z",
+                      "noOfUnits": 30
+                  },
+                  "companyData":
+                    {
+                      "company": {
+                        "name": "Mr. Prakash Badal",
+                        "profileImageURL": "modules/companies/img/company/nvc-company.svg",
+                        "addresses": [
+                        {
+                          "addressLine":"Bhatinda",
+                          "city":"Bhatinda",
+                          "state":"Punjab",
+                          "country":"India"
+                        }
+                        ],
+                        "registrationCategory": {
+                          "name": "Manufacturer"
+                          
+                        }
+                      },
+                      "businessUnitData": {
+                        "name": "Farmer",
+                        "type": "RegisteredOffice"
+                        
+                      }
+                    },
+                  "children":[ 
+                  ]
+                },
+                {
+                  "productData":{
+                    "conversions":[],
+                    "inventory":{
+                      "price": {
+                        "MRP": {
+                          "value": 100
+                        }
+                      },
+                      "unitMeasure": "Kgs",
+                      "productMainCategoryName": "",
+                      "productName": "Adhesive",
+                      "productCode": "",
+                      "productDescription": "Adhiesive",
+                      "brandName": "Feviquick",
+                      "brandVariety": "",
+                      "brandVarietyName": "Premium",
+                      "inventoryImages": [
+                        {
+                          "imageURL": "modules/inventories/img/itemmaster/itemmaster.svg",
+                          "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                          "_id": "5cde3eac59c0464c8acfa855"
+                        }
+                      ]
+                    },
+                    "stockMasters":[]
+                  },
+                  "orderData":{
+                      "orderNumber": "00728-00001-17052019-00001",
+                      "orderCreatedDate": "2019-05-17T04:55:15.141Z",
+                      "noOfUnits": 30
+                  },
+                  "companyData":
+                    {
+                      "company": {
+                      "name": "",
+                      "profileImageURL": "modules/companies/img/company/nvc-company.svg",
+                      "addresses": [
+                      {
+                        "addressLine":"Shukla Ganj",
+                        "city":"Kanpur",
+                        "state":"UP",
+                        "country":"India"
+                      }
+                      ],
+                      "registrationCategory": {
+                        "name": "Manufacturer"
+                        
+                      }
+                    },
+                    "businessUnitData": {
+                      "name": "Faviquick",
+                      "type": "RegisteredOffice"
+                    }
+                    },
+                  "children":[
+                  ]
+                }
+              ],
+              "inventory": {
+                "price": {
+                  "MRP": {
+                    "value": 30
+                  }
+                },
+                "unitMeasure": "Kg",
+                "productMainCategoryName": "Soles",
+                "productName": "Wooden Sole",
+                "productCode": "WSOLE",
+                "productDescription": "",
+                "brandName": "CLOG",
+                "brandVariety": "",
+                "brandVarietyName": "Premium",
+                "inventoryImages": [
+                  {
+                    "imageURL": "modules/inventories/img/itemmaster/itemmaster.svg",
+                    "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                    "_id": "5cde3eac59c0464c8acfa855"
+                  }
+                ]
+              },
+              "stockMasters": [
+                {
+                  "count": 1,
+                  "conversions": [
+                    
+                  ],
+                  "orders": [
+                    
+                  ],
+                  "stockData": {
+                    "count": 1,
+                    "stockMaster": {
+                      "code": "00728-00001-17052019-00001",
+                      "batchNumber": "00728-00001-17052019-00001"
+                      
+                    }
+                  }
+                }
+              ]
+              
+            },
+            "orderData": {
+              "orderNumber": "00728-00001-17052019-00001",
+              "orderCreatedDate": "2019-05-17T04:55:15.141Z",
+              "noOfUnits": 30
+            },
+            "companyData": {
+              "company": {
+                "name": "Sales inventory@clog.com",
+                "profileImageURL": "modules/companies/img/company/nvc-company.svg",
+                "addresses": [
+                {
+                  "addressLine":"GAUTAM BUDDHA NAGAR",
+                  "city":"Noida",
+                  "country":"India"
+                }
+                ],
+                "registrationCategory": {
+                  "name": "Manufacturer"
+                  
+                }
+              },
+              "businessUnitData": {
+                "name": "CLOG",
+                "type": "RegisteredOffice"
+                
+              }
+            },
+            "children": [
+              
+            ]
+            
+          },
+          {
+            "productData": {
+              "conversions": [],
+              "inventory": {
+                "price": {
+                  "MRP": {
+                    "value": 5000
+                  }
+                },
+                "unitMeasure": "Metres",
+                "productMainCategoryName": "",
+                "productName": "Wool Heal Pad",
+                "productCode": "",
+                "productDescription": "Wool heal pad for sandals",
+                "brandName": "WoolMan",
+                "brandVariety": "",
+                "brandVarietyName": "Premium",
+                "inventoryImages": [
+                  {
+                    "imageURL": "modules/inventories/img/itemmaster/itemmaster.svg",
+                    "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+                    "_id": "5cde3eac59c0464c8acfa855"
+                  }
+                ]
+              },
+              "stockMasters": [
+                {
+                  "count": 1,
+                  "conversions": [
+                    
+                  ],
+                  "orders": [
+                    
+                  ],
+                  "stockData": {
+                    "count": 1,
+                    "stockMaster": {
+                      "code": "00728-00001-17052019-00001",
+                      "batchNumber": "00728-00001-17052019-00001"       
+                    }
+                  }
+                }
+              ]
+            },
+            "orderData": {
+              "orderNumber": "00728-00001-17052019-00001",
+              "orderCreatedDate": "2019-05-17T04:55:15.141Z",
+              "noOfUnits": 30
+            },
+            "companyData": {
+              "company": {
+                "name": "sales@clog.com",
+                "profileImageURL": "modules/companies/img/company/nvc-company.svg",
+                "addresses": [
+                  {
+                    "addressLine":"GAUTAM BUDDHA NAGAR",
+                    "city":"Noida",
+                    "country":"India"
+                  }
+                ],
+                "registrationCategory": {
+                  "name": "Manufacturer"
+                }
+              },
+              "businessUnitData": {
+                "name": "CLOG",
+                "type": "RegisteredOffice"
+                
+              }
+            },
+            "children": [
+              
+            ]
+          }
+        ],
+        "inventory": {
+          "price": {
+            "MRP": {
+              "value": 300
+            }
+          },
+          "unitMeasure": "Box",
+          "productSubCategoryName": "",
+          "productMainCategoryName": "",
+          "productName": "Sandal",
+          "productType": "Premium",
+          "productCode": "",
+          "productDescription": "",
+          "brandName": "Clog",
+          "brandVariety": "",
+          "brandVarietyName": "Premium",
+          "brandVarietyDescription": "",
+          "unitOfMeasureName": "Box (10 Kgs)",
+          "numberOfUnits": 299,
+          "deleted": false,
+          
+          "inventoryImages": [
+            {
+              "imageURL": "modules/inventories/img/itemmaster/itemmaster.svg",
+              "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+              "_id": "5cde3eac59c0464c8acfa855"
+            }
+          ]
+        },
+        "stockMasters": [
+          {
+            "count": 1,
+            "conversions": [
+              
+            ],
+            "orders": [
+              
+            ],
+            "stockItems": [
+              
+            ],
+            "stockMaster": "5cde3ead59c0464c8acfa85c",
+            "stockData": {
+              "count": 1,
+              "stockMaster": {
+                "currentOwner": {
+                  "businessUnitNumber": "",
+                  "businessUnitName": "RegisteredOffice - default",
+                  "companyName": "nVipani",
+                  "company": "5cde3ea859c0464c8acfa55a",
+                  "businessUnit": {
+                    
+                  }
+                },
+                "weightLoss": {
+                  "percentage": 0,
+                  "duration": 0
+                },
+                "price": {
+                  "MRP": {
+                    "value": 30,
+                    "from": 30,
+                    "to": 30,
+                    "multiplier": 0,
+                    "sourcePrice": "None"
+                  }
+                },
+                "stockOut": {
+                  
+                },
+                "stockIn": {
+                  
+                },
+                "stockOwner": {
+                  
+                },
+                "code": "00728-00001-17052019-00001",
+                "batchNumber": "00728-00001-17052019-00001",
+                "resources": [
+                  
+                ],
+                "conversion": [
+                  
+                ],
+                "items": [
+                  
+                ],
+                "manufacturingDate": "2019-05-17T04:55:09.324Z",
+                "expiryDate": "2019-05-17T04:55:09.324Z",
+                "images": [
+                  
+                ],
+                "videos": [
+                  
+                ],
+                "certificates": [
+                  
+                ],
+                "created": "2019-05-17T04:55:09.535Z",
+                "lastUpdated": "2019-05-17T04:55:09.324Z",
+                "inventory": {
+                  
+                },
+                "user": {
+                  
+                },
+                "stockMasterVersionKey": 0
+              }
+            }
+          }
+        ],
+        "orderNumber": "00728-00001-17052019-00001",
+        "orderCreatedDate": "2019-05-17T04:55:15.141Z"
+      },
+      "orderData": {
+        "orderNumber": "00728-00001-17052019-00001",
+        "orderCreatedDate": "2019-05-17T04:55:15.141Z",
+        "noOfUnits": 30
+        
+      },
+      "children": [
+        
+      ],
+      "companyData": {
+        "company": {
+          "name": "CLOG",
+          "code": "00728",
+          "profileImageURL": "modules/companies/img/company/nvc-company.svg",
+          "croppedProfileImageURL": "modules/companies/img/company/nvc-company-resize-240-240.png",
+          "_id": "5cde3ea859c0464c8acfa55a",
+          "addresses": [
+            {
+              "addressLine":"GAUTAM BUDDHA NAGAR",
+              "city":"Noida",
+              "country":"India"
+            }
+          ],
+          "registrationCategory": {
+            "name": "Manufacturer",
+            "description": "Poineer in manufacturing comfortable footwear",
+            "_id": "5cd4720b38122d571ed295e9"
+          }
+        },
+        "businessUnitData": {
+          "name": "Clog Manufacturing",
+          "code": "00001",
+          "type": "RegisteredOffice",
+          "_id": "5cde3ea859c0464c8acfa562"
+        }
+      }
+    }
+  ],
+  "productData": {
+    "conversions": [
+    ],
+    "inventory": {
+      "price": {
+        "MRP": {
+          "value": 450
+        }
+      },
+      "unitMeasure": "Pcs",
+      "productSubCategoryName": "Footwear",
+      "productMainCategoryName": "",
+      "productName": "Sandal",
+      "productType": "Footwear",
+      "productCode": "NUTMGB",
+      "productDescription": "",
+      "brandName": "Clog",
+      "brandVariety": "",
+      "brandVarietyName": "Premium",
+      "manufacturers": [
+        
+      ],
+      "unitOfMeasureName": "Box (10 Kgs)",
+      "stockMasters": [
+        
+      ],
+      "inventoryImages": [
+        {
+          "imageURL": "modules/inventories/img/itemmaster/itemmaster.svg",
+          "croppedImageURL": "modules/inventories/img/itemmaster/itemmaster-resize-240-240.png",
+          "_id": "5cde3eac59c0464c8acfa855"
+        }
+      ]
+    },
+    "stockMasters": [
+    {
+        "count": 1,
+        "conversions": [
+        ],
+        "orders": [
+        ],
+        "stockData": {
+          "count": 1,
+          "stockMaster": {
+            "code": "00728-00001-17052019-00001",
+            "batchNumber": "00728-00001-17052019-00001"
+          }
+        }
+    }]
+  },
+  "orderData": {
+    "orderNumber": "00728-00001-17052019-00001",
+    "orderCreatedDate": "2019-05-17T04:55:15.141Z",
+    "noOfUnits": 30
+  },
+  "companyData": {
+    "company": {
+      "name": "Sales inventory@clog.com",
+      "code": "00730",
+      "profileImageURL": "modules/companies/img/company/nvc-company.svg",
+      "croppedProfileImageURL": "modules/companies/img/company/nvc-company-resize-240-240.png",
+      "_id": "5cde3eb159c0464c8acfaade",
+      "addresses": [
+          {
+            "addressLine":"Gopalan Mall",
+            "city":"Bangalore",
+            "country":"India"
+          }
+      ],
+      "registrationCategory": {
+        "name": "Retailer",
+        "description": "Proactive pilferage prevention <br> Automate the hectic manual processes <br> Real-time traceability over your products",
+        "_id": "5cd4720b38122d571ed295f6"
+      }
+    },
+    "businessUnitData": {
+      "name": "Shoppers Stop",
+      "code": "00001",
+      "type": "RegisteredOffice",
+      "_id": "5cde3eb259c0464c8acfaae7"
+    }
+  }
+}

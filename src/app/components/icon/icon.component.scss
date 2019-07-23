@@ -1,0 +1,26 @@
+@import "variables";
+
+:host {
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 0;
+}
+
+svg-icon {
+  line-height: 0;
+}
+
+.fab {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  background: $primary-color;
+  padding-top:34%;
+  padding-bottom: 0%;
+
+}
+.fab-error {
+  @extend .fab;
+  color: $primary-color;
+  background: $error-color;
+}

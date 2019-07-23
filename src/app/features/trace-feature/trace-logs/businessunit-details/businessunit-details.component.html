@@ -1,0 +1,24 @@
+<div class="container businessUnit" fxLayout="column" >
+  <div class="container" fxLayout="row">
+    <div fxFlex="20%" fxLayoutAlign="center center">
+      <img class="itemimg" src="{{companyImageUrl}}" height="auto" width="auto" />
+    </div>
+    <div fxFlex="60%">
+      <div class="container contentmargin" fxLayout="column" fxLayoutAlign="center start" fxFlexAlign="center">
+        <strong>
+          <div>{{ businessUnitDetails.name }}</div>
+        </strong>
+        <div>{{ businessUnitDetails.type }}</div>
+        <div>{{ address }}</div>
+      </div>
+    </div>
+    <div fxFlex="20%" fxFlexAlign="center">
+      <div *ngIf="isDocumentsPresent(businessUnitDetails)">
+          <img class="certificateicon" src="assets/icons/file_text.svg" (click)="loadDocuments(businessUnitDetails)">
+      </div>
+    </div>
+  </div>
+  <div *ngIf="isConversionPresent(trackerNode.inventories[0])">
+    <app-conversion-tree [trackerNode]="trackerNode"></app-conversion-tree>
+  </div>
+</div>
