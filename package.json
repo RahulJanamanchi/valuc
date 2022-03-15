@@ -40,7 +40,7 @@
     "js-map-label": "^1.0.1",
     "jsqr": "^1.2.0",
     "localforage": "^1.7.3",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "mat-video": "^2.7.2",
     "moment": "^2.24.0",
     "ngforage": "^5.0.1",
