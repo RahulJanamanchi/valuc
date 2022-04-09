@@ -42,7 +42,7 @@
     "localforage": "^1.7.3",
     "lodash-es": "^4.17.15",
     "mat-video": "^2.7.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ngforage": "^5.0.1",
     "ngx-virtual-scroller": "^3.0.2",
     "queue-typescript": "^1.0.1",
